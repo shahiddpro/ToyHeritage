@@ -174,7 +174,7 @@ export class MemStorage implements IStorage {
         category: "Wooden Toys",
         region: "South India",
         material: "Wood",
-        imageUrl: "/images/toys/wooden-horse.svg",
+        imageUrl: "/images/products/channapatna-wooden-horse.png",
         artisanId: artisanIds[0],
         stock: 15,
         history: "Channapatna toys have a rich history dating back to the reign of Tipu Sultan who invited Persian artisans to train local craftsmen in toy making. The craft has been passed down through generations for over 200 years.",
