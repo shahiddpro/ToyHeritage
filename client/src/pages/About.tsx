@@ -8,8 +8,8 @@ const About = () => {
         <div className="relative">
           <div className="h-64 md:h-80 bg-[#1A237E] rounded-xl overflow-hidden">
             <img 
-              src="/images/hero-artisans.jpg" 
-              alt="Artisans working on clay toys" 
+              src="https://images.unsplash.com/photo-1599045239569-c27172f3ae0a?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" 
+              alt="Traditional Indian toys arrangement" 
               className="w-full h-full object-cover opacity-30"
             />
             <div className="absolute inset-0 flex items-center justify-center">
