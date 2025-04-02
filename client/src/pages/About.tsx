@@ -88,8 +88,8 @@ const About = () => {
           <div className="grid grid-cols-2 gap-4">
             <div className="space-y-4">
               <img 
-                src="https://images.unsplash.com/photo-1618842676088-c4489444c0d4?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=80" 
-                alt="Traditional wooden toy making process" 
+                src="/images/traditional-wooden-toys.jpg" 
+                alt="Collection of traditional wooden toys and dolls" 
                 className="w-full h-48 object-cover rounded-lg"
               />
               <img 
@@ -100,13 +100,13 @@ const About = () => {
             </div>
             <div className="space-y-4 mt-8">
               <img 
-                src="https://images.unsplash.com/photo-1598875184988-5e67b1a874b8?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=80" 
-                alt="Children playing with traditional toys" 
+                src="/images/kondapalli-statues.jpg" 
+                alt="Colorful Kondapalli wooden statues" 
                 className="w-full h-64 object-cover rounded-lg"
               />
               <img 
-                src="https://images.unsplash.com/photo-1600595289860-fc1fa58ec456?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=80" 
-                alt="Artisan working on clay toys" 
+                src="/images/ancient-clay-toys.jpg" 
+                alt="Ancient clay toy artifacts" 
                 className="w-full h-48 object-cover rounded-lg"
               />
             </div>
