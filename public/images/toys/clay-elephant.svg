@@ -1,0 +1,26 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+  <rect width="100%" height="100%" fill="#F3E5F5"/>
+  <!-- Body -->
+  <ellipse cx="400" cy="350" rx="150" ry="100" fill="#CE93D8"/>
+  <!-- Head -->
+  <circle cx="550" cy="250" r="70" fill="#CE93D8"/>
+  <!-- Ears -->
+  <ellipse cx="500" cy="230" rx="40" ry="50" fill="#BA68C8"/>
+  <ellipse cx="600" cy="230" rx="40" ry="50" fill="#BA68C8"/>
+  <!-- Trunk -->
+  <path d="M550,280 C570,330 580,380 550,430" fill="#CE93D8" stroke="#AB47BC" stroke-width="2"/>
+  <!-- Legs -->
+  <rect x="300" y="390" width="40" height="80" rx="10" fill="#BA68C8"/>
+  <rect x="460" y="390" width="40" height="80" rx="10" fill="#BA68C8"/>
+  <rect x="350" y="390" width="40" height="80" rx="10" fill="#BA68C8"/>
+  <rect x="410" y="390" width="40" height="80" rx="10" fill="#BA68C8"/>
+  <!-- Eyes -->
+  <circle cx="530" cy="240" r="5" fill="#4A148C"/>
+  <circle cx="570" cy="240" r="5" fill="#4A148C"/>
+  <!-- Decorations -->
+  <path d="M350,350 C375,330 425,330 450,350" stroke="#9C27B0" stroke-width="3" fill="none"/>
+  <path d="M350,370 C375,350 425,350 450,370" stroke="#9C27B0" stroke-width="3" fill="none"/>
+  <circle cx="550" cy="250" r="85" stroke="#9C27B0" stroke-width="3" fill="none"/>
+  <text x="400" y="500" font-family="Arial" font-size="24" text-anchor="middle" fill="#6A1B9A">Bengal Clay Elephant</text>
+  <text x="400" y="530" font-family="Arial" font-size="18" text-anchor="middle" fill="#8E24AA">Traditional Terracotta Art</text>
+</svg>

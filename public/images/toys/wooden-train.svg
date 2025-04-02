@@ -1,51 +1,61 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
-  <!-- Background -->
-  <rect width="200" height="200" fill="#f8f8f8"/>
-  
-  <!-- Train Track -->
-  <rect x="20" y="140" width="160" height="5" fill="#8b4513"/>
-  <rect x="20" y="150" width="160" height="5" fill="#8b4513"/>
-  
-  <!-- Track Ties -->
-  <rect x="20" y="145" width="10" height="5" fill="#5d4037"/>
-  <rect x="40" y="145" width="10" height="5" fill="#5d4037"/>
-  <rect x="60" y="145" width="10" height="5" fill="#5d4037"/>
-  <rect x="80" y="145" width="10" height="5" fill="#5d4037"/>
-  <rect x="100" y="145" width="10" height="5" fill="#5d4037"/>
-  <rect x="120" y="145" width="10" height="5" fill="#5d4037"/>
-  <rect x="140" y="145" width="10" height="5" fill="#5d4037"/>
-  <rect x="160" y="145" width="10" height="5" fill="#5d4037"/>
-  <rect x="180" y="145" width="10" height="5" fill="#5d4037"/>
-  
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+  <rect width="100%" height="100%" fill="#FFF8E1"/>
+  <!-- Track -->
+  <rect x="100" y="400" width="600" height="10" fill="#5D4037"/>
+  <rect x="100" y="420" width="600" height="10" fill="#5D4037"/>
+  <!-- Track ties -->
+  <rect x="120" y="400" width="10" height="30" fill="#8D6E63"/>
+  <rect x="170" y="400" width="10" height="30" fill="#8D6E63"/>
+  <rect x="220" y="400" width="10" height="30" fill="#8D6E63"/>
+  <rect x="270" y="400" width="10" height="30" fill="#8D6E63"/>
+  <rect x="320" y="400" width="10" height="30" fill="#8D6E63"/>
+  <rect x="370" y="400" width="10" height="30" fill="#8D6E63"/>
+  <rect x="420" y="400" width="10" height="30" fill="#8D6E63"/>
+  <rect x="470" y="400" width="10" height="30" fill="#8D6E63"/>
+  <rect x="520" y="400" width="10" height="30" fill="#8D6E63"/>
+  <rect x="570" y="400" width="10" height="30" fill="#8D6E63"/>
+  <rect x="620" y="400" width="10" height="30" fill="#8D6E63"/>
+  <rect x="670" y="400" width="10" height="30" fill="#8D6E63"/>
   <!-- Engine -->
-  <rect x="40" y="100" width="40" height="40" rx="5" ry="5" fill="#c19a6b"/>
-  <rect x="50" y="80" width="20" height="20" fill="#a67c52"/>
-  <rect x="45" y="80" width="30" height="5" fill="#8b5a2b"/>
-  <rect x="30" y="110" width="10" height="30" fill="#a67c52"/>
+  <rect x="200" y="320" width="100" height="80" rx="5" fill="#F44336"/>
+  <rect x="300" y="350" width="30" height="50" fill="#F44336"/>
+  <rect x="170" y="350" width="30" height="50" fill="#F44336"/>
+  <!-- Engine chimney -->
+  <rect x="210" y="290" width="30" height="30" fill="#D32F2F"/>
+  <!-- Engine cabin -->
+  <rect x="250" y="290" width="40" height="30" fill="#FFECB3"/>
+  <!-- Engine wheels -->
+  <circle cx="200" cy="400" r="20" fill="#212121"/>
+  <circle cx="200" cy="400" r="10" fill="#616161"/>
+  <circle cx="300" cy="400" r="20" fill="#212121"/>
+  <circle cx="300" cy="400" r="10" fill="#616161"/>
+  <!-- First carriage -->
+  <rect x="350" y="340" width="80" height="60" rx="5" fill="#4CAF50"/>
+  <rect x="430" y="350" width="20" height="50" fill="#4CAF50"/>
+  <rect x="330" y="350" width="20" height="50" fill="#4CAF50"/>
+  <!-- First carriage wheels -->
+  <circle cx="370" cy="400" r="20" fill="#212121"/>
+  <circle cx="370" cy="400" r="10" fill="#616161"/>
+  <circle cx="410" cy="400" r="20" fill="#212121"/>
+  <circle cx="410" cy="400" r="10" fill="#616161"/>
+  <!-- Second carriage -->
+  <rect x="450" y="340" width="80" height="60" rx="5" fill="#2196F3"/>
+  <rect x="530" y="350" width="20" height="50" fill="#2196F3"/>
+  <rect x="430" y="350" width="20" height="50" fill="#2196F3"/>
+  <!-- Second carriage wheels -->
+  <circle cx="470" cy="400" r="20" fill="#212121"/>
+  <circle cx="470" cy="400" r="10" fill="#616161"/>
+  <circle cx="510" cy="400" r="20" fill="#212121"/>
+  <circle cx="510" cy="400" r="10" fill="#616161"/>
+  <!-- Windows -->
+  <rect x="260" cy="300" width="20" height="15" fill="#FFFFFF"/>
+  <rect x="225" cy="350" width="15" height="15" fill="#FFFFFF"/>
+  <rect x="260" cy="350" width="15" height="15" fill="#FFFFFF"/>
+  <rect x="365" cy="350" width="15" height="15" fill="#FFFFFF"/>
+  <rect x="400" cy="350" width="15" height="15" fill="#FFFFFF"/>
+  <rect x="465" cy="350" width="15" height="15" fill="#FFFFFF"/>
+  <rect x="500" cy="350" width="15" height="15" fill="#FFFFFF"/>
   
-  <!-- Engine Details -->
-  <circle cx="50" cy="140" r="10" fill="#5d4037"/>
-  <circle cx="50" cy="140" r="5" fill="#8b4513"/>
-  <circle cx="70" cy="140" r="10" fill="#5d4037"/>
-  <circle cx="70" cy="140" r="5" fill="#8b4513"/>
-  
-  <!-- Smokestack -->
-  <rect x="60" y="70" width="10" height="10" fill="#5d4037"/>
-  <path d="M60,65 Q65,50 70,65" fill="#e6e6e6"/>
-  
-  <!-- Passenger Car -->
-  <rect x="100" y="110" width="50" height="30" rx="5" ry="5" fill="#e68a00"/>
-  <rect x="105" y="115" width="10" height="15" fill="#87ceeb"/>
-  <rect x="120" y="115" width="10" height="15" fill="#87ceeb"/>
-  <rect x="135" y="115" width="10" height="15" fill="#87ceeb"/>
-  
-  <!-- Passenger Car Wheels -->
-  <circle cx="110" cy="140" r="10" fill="#5d4037"/>
-  <circle cx="110" cy="140" r="5" fill="#8b4513"/>
-  <circle cx="140" cy="140" r="10" fill="#5d4037"/>
-  <circle cx="140" cy="140" r="5" fill="#8b4513"/>
-  
-  <!-- Connection -->
-  <rect x="80" y="120" width="20" height="5" fill="#5d4037"/>
+  <text x="400" y="500" font-family="Arial" font-size="24" text-anchor="middle" fill="#5D4037">Wooden Train Set</text>
+  <text x="400" y="530" font-family="Arial" font-size="18" text-anchor="middle" fill="#8D6E63">Traditional Toy Craft</text>
 </svg>

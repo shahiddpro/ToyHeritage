@@ -1,39 +1,22 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg width="300" height="300" viewBox="0 0 300 300" xmlns="http://www.w3.org/2000/svg">
-  <!-- Traditional Wooden Horse -->
-  <defs>
-    <linearGradient id="wood" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" style="stop-color:#8B4513;stop-opacity:1" />
-      <stop offset="50%" style="stop-color:#A0522D;stop-opacity:1" />
-      <stop offset="100%" style="stop-color:#8B4513;stop-opacity:1" />
-    </linearGradient>
-  </defs>
-  
-  <!-- Body -->
-  <ellipse cx="150" cy="170" rx="80" ry="40" fill="url(#wood)" />
-  
-  <!-- Neck -->
-  <path d="M190,150 C210,110 220,70 210,60 C200,50 185,90 180,120" fill="url(#wood)" />
-  
-  <!-- Head -->
-  <path d="M205,55 C210,45 220,45 225,55 C230,65 220,80 210,70 Z" fill="url(#wood)" />
-  <circle cx="215" cy="52" r="2" fill="black" /> <!-- Eye -->
-  
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+  <rect width="100%" height="100%" fill="#FFF8E1"/>
+  <!-- Base -->
+  <rect x="200" y="400" width="400" height="40" rx="10" fill="#8D6E63"/>
+  <!-- Horse Body -->
+  <ellipse cx="400" cy="300" rx="150" ry="70" fill="#A1887F"/>
+  <!-- Horse Head -->
+  <path d="M500,260 C550,220 560,180 530,170 C520,165 510,170 500,180 L480,240" fill="#A1887F"/>
+  <!-- Horse Mane -->
+  <path d="M500,180 C510,175 520,170 530,170 C540,170 545,180 540,200 C535,220 520,240 500,260" fill="#6D4C41" stroke="#5D4037" stroke-width="2"/>
   <!-- Legs -->
-  <rect x="100" y="170" width="10" height="60" rx="5" fill="#6a3805" />
-  <rect x="190" y="170" width="10" height="60" rx="5" fill="#6a3805" />
-  <rect x="120" y="170" width="10" height="70" rx="5" fill="#6a3805" />
-  <rect x="170" y="170" width="10" height="70" rx="5" fill="#6a3805" />
-  
+  <rect x="300" y="350" width="20" height="80" rx="5" fill="#8D6E63"/>
+  <rect x="480" y="350" width="20" height="80" rx="5" fill="#8D6E63"/>
+  <rect x="330" y="350" width="20" height="80" rx="5" fill="#8D6E63"/>
+  <rect x="450" y="350" width="20" height="80" rx="5" fill="#8D6E63"/>
   <!-- Tail -->
-  <path d="M85,155 C75,145 70,130 75,125 C80,120 90,140 90,150" fill="#5c2f00" />
-  
-  <!-- Decorative elements - Channapatna style -->
-  <path d="M150,150 L150,190" stroke="#D32F2F" stroke-width="5" />
-  <path d="M130,150 L130,190" stroke="#FFC107" stroke-width="5" />
-  <path d="M170,150 L170,190" stroke="#1976D2" stroke-width="5" />
-  
-  <circle cx="150" cy="150" r="15" fill="#4CAF50" />
-  <circle cx="150" cy="150" r="10" fill="#FFEB3B" />
-  <circle cx="150" cy="150" r="5" fill="#F44336" />
+  <path d="M250,300 C230,280 220,240 240,220 C260,200 280,240 290,280" fill="#6D4C41"/>
+  <!-- Eye -->
+  <circle cx="520" cy="190" r="5" fill="#3E2723"/>
+  <text x="400" y="500" font-family="Arial" font-size="24" text-anchor="middle" fill="#5D4037">Channapatna Wooden Horse</text>
+  <text x="400" y="530" font-family="Arial" font-size="18" text-anchor="middle" fill="#8D6E63">Traditional Karnataka Craft</text>
 </svg>

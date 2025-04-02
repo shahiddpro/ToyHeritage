@@ -1,62 +1,17 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg width="500" height="300" viewBox="0 0 500 300" xmlns="http://www.w3.org/2000/svg">
-  <!-- South India Imagery -->
-  <defs>
-    <linearGradient id="warmSky" x1="0%" y1="0%" x2="0%" y2="100%">
-      <stop offset="0%" style="stop-color:#FFA726;stop-opacity:0.6" />
-      <stop offset="100%" style="stop-color:#FFCC80;stop-opacity:0.3" />
-    </linearGradient>
-  </defs>
-  
-  <!-- Background -->
-  <rect width="500" height="300" fill="url(#warmSky)" />
-  
-  <!-- Water/Ocean -->
-  <path d="M0,240 C50,230 80,250 130,240 C180,230 220,250 270,240 C320,230 380,250 430,240 C480,230 500,240 500,240 L500,300 L0,300 Z" fill="#81D4FA" />
-  
-  <!-- Palm trees -->
-  <line x1="100" y1="240" x2="95" y2="180" stroke="#795548" stroke-width="10" />
-  <path d="M80,180 C90,160 100,160 110,180" stroke="#66BB6A" stroke-width="5" fill="none" />
-  <path d="M70,190 C85,170 105,170 120,190" stroke="#66BB6A" stroke-width="5" fill="none" />
-  <path d="M65,200 C85,180 105,180 125,200" stroke="#66BB6A" stroke-width="5" fill="none" />
-  
-  <line x1="400" y1="240" x2="395" y2="180" stroke="#795548" stroke-width="10" />
-  <path d="M380,180 C390,160 400,160 410,180" stroke="#66BB6A" stroke-width="5" fill="none" />
-  <path d="M370,190 C385,170 405,170 420,190" stroke="#66BB6A" stroke-width="5" fill="none" />
-  <path d="M365,200 C385,180 405,180 425,200" stroke="#66BB6A" stroke-width="5" fill="none" />
-  
-  <!-- Temple structure -->
-  <rect x="175" y="140" width="150" height="100" fill="#FBE9E7" />
-  
-  <!-- Temple base -->
-  <rect x="165" y="220" width="170" height="20" fill="#FFCCBC" />
-  
-  <!-- Temple steps -->
-  <rect x="185" y="240" width="130" height="5" fill="#FFCCBC" />
-  <rect x="195" y="245" width="110" height="5" fill="#FFCCBC" />
-  <rect x="205" y="250" width="90" height="5" fill="#FFCCBC" />
-  
-  <!-- Temple tower (Gopuram) -->
-  <path d="M200,140 L250,80 L300,140" fill="#FFCCBC" />
-  <path d="M210,140 L250,90 L290,140" fill="#FBE9E7" />
-  
-  <!-- Ornate temple decorations -->
-  <path d="M200,140 C210,130 220,140 230,130 C240,140 250,130 260,140 C270,130 280,140 290,130 C300,140 300,140 300,140" fill="none" stroke="#E64A19" stroke-width="2" />
-  
-  <!-- Temple door -->
-  <rect x="235" y="200" width="30" height="40" fill="#795548" />
-  
-  <!-- Temple statues/carvings -->
-  <circle cx="200" cy="170" r="10" fill="#E64A19" />
-  <circle cx="300" cy="170" r="10" fill="#E64A19" />
-  <rect x="220" y="170" width="60" height="20" rx="5" fill="#FFA726" />
-  
-  <!-- Wooden toy (Channapatna) -->
-  <circle cx="80" cy="90" r="30" fill="#FFC107" />
-  <circle cx="80" cy="90" r="20" fill="#F57C00" />
-  <circle cx="80" cy="90" r="10" fill="#E64A19" />
-  
-  <!-- Region label -->
-  <rect x="150" y="40" width="200" height="40" rx="10" fill="rgba(255,255,255,0.7)" />
-  <text x="250" y="65" font-family="Arial" font-size="20" text-anchor="middle" font-weight="bold" fill="#E64A19">South India</text>
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+  <rect width="100%" height="100%" fill="#fff0e3"/>
+  <!-- Ocean -->
+  <path d="M0,400 C200,380 400,420 600,380 C700,370 800,400 800,400 L800,600 L0,600 Z" fill="#87CEEB" />
+  <!-- Temple -->
+  <rect x="300" y="250" width="200" height="150" fill="#F0C27A" />
+  <polygon points="300,250 400,150 500,250" fill="#F0C27A" />
+  <rect x="350" y="320" width="40" height="80" fill="#8D5B4C" />
+  <rect x="410" y="320" width="40" height="80" fill="#8D5B4C" />
+  <!-- Palm Trees -->
+  <rect x="150" y="320" width="20" height="80" fill="#8D5B4C" />
+  <path d="M160,320 C130,290 120,260 160,240 C200,260 190,290 160,320" fill="#1B7742" />
+  <rect x="630" y="320" width="20" height="80" fill="#8D5B4C" />
+  <path d="M640,320 C610,290 600,260 640,240 C680,260 670,290 640,320" fill="#1B7742" />
+  <text x="400" y="500" font-family="Arial" font-size="24" text-anchor="middle" fill="#8D5B4C">South India Region</text>
+  <text x="400" y="530" font-family="Arial" font-size="18" text-anchor="middle" fill="#AD7D59">Vibrant Coastal Traditions</text>
 </svg>
