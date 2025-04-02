@@ -88,25 +88,25 @@ const About = () => {
           <div className="grid grid-cols-2 gap-4">
             <div className="space-y-4">
               <img 
-                src="/images/wooden_train_set.webp" 
-                alt="Traditional wooden train set" 
+                src="/images/smth.webp" 
+                alt="Traditional toy crafting" 
                 className="w-full h-48 object-cover rounded-lg"
               />
               <img 
-                src="/images/artisans_working_on_clay_tos.jpg" 
-                alt="Artisans working on clay toys" 
+                src="/images/smth_2.jpg" 
+                alt="Traditional toy making" 
                 className="w-full h-64 object-cover rounded-lg"
               />
             </div>
             <div className="space-y-4 mt-8">
               <img 
-                src="/images/kathputli_string_puppet.jpg" 
-                alt="Traditional Kathputli string puppet" 
+                src="/images/smth_3.webp" 
+                alt="Traditional toy creation" 
                 className="w-full h-64 object-cover rounded-lg"
               />
               <img 
-                src="/images/bengali_claydoll.webp" 
-                alt="Traditional Bengali clay doll" 
+                src="/images/smth.webp" 
+                alt="Traditional toy crafting" 
                 className="w-full h-48 object-cover rounded-lg"
               />
             </div>
