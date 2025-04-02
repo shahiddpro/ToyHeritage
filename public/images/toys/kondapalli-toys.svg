@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="400" viewBox="0 0 600 400">
+  <!-- Background -->
+  <rect width="600" height="400" fill="#F8F8F8" />
+  
+  <!-- Background pattern - wood texture suggestion -->
+  <pattern id="wood-texture" patternUnits="userSpaceOnUse" width="100" height="20">
+    <rect width="100" height="20" fill="#F5F5F5" />
+    <path d="M0,5 C25,0 75,20 100,5 M0,15 C25,10 75,30 100,15" stroke="#EEEEEE" stroke-width="1" fill="none" />
+  </pattern>
+  <rect width="600" height="400" fill="url(#wood-texture)" />
+  
+  <!-- Kondapalli Bull -->
+  <g transform="translate(150, 200)">
+    <!-- Body -->
+    <ellipse cx="0" cy="0" rx="80" ry="40" fill="#8D6E63" stroke="#5D4037" stroke-width="3" />
+    
+    <!-- Head -->
+    <path d="M80,0 L120,0 L110,-30 Z" fill="#A1887F" stroke="#5D4037" stroke-width="3" />
+    
+    <!-- Horns -->
+    <path d="M110,-30 C130,-50 135,-40 140,-30" fill="none" stroke="#5D4037" stroke-width="4" />
+    <path d="M110,-30 C90,-50 85,-40 80,-30" fill="none" stroke="#5D4037" stroke-width="4" />
+    
+    <!-- Eyes -->
+    <circle cx="105" cy="-10" r="3" fill="#3E2723" />
+    
+    <!-- Tail -->
+    <path d="M-80,0 C-95,10 -110,-10 -100,-30" fill="none" stroke="#5D4037" stroke-width="4" />
+    
+    <!-- Legs -->
+    <rect x="-60" y="40" width="15" height="50" fill="#8D6E63" stroke="#5D4037" stroke-width="2" rx="3" />
+    <rect x="-20" y="40" width="15" height="50" fill="#8D6E63" stroke="#5D4037" stroke-width="2" rx="3" />
+    <rect x="20" y="40" width="15" height="50" fill="#8D6E63" stroke="#5D4037" stroke-width="2" rx="3" />
+    <rect x="60" y="40" width="15" height="50" fill="#8D6E63" stroke="#5D4037" stroke-width="2" rx="3" />
+    
+    <!-- Traditional Decorative Patterns -->
+    <path d="M-60,0 L60,0" stroke="#D50000" stroke-width="5" />
+    <path d="M-60,-15 L60,-15" stroke="#FFC107" stroke-width="3" stroke-dasharray="5,3" />
+    <path d="M-60,15 L60,15" stroke="#FFC107" stroke-width="3" stroke-dasharray="5,3" />
+    
+    <circle cx="-40" cy="-25" r="8" fill="#D50000" />
+    <circle cx="0" cy="-25" r="8" fill="#D50000" />
+    <circle cx="40" cy="-25" r="8" fill="#D50000" />
+    
+    <circle cx="-20" cy="25" r="8" fill="#FFC107" />
+    <circle cx="20" cy="25" r="8" fill="#FFC107" />
+  </g>
+  
+  <!-- Kondapalli Ambari Elephant -->
+  <g transform="translate(450, 200)">
+    <!-- Body -->
+    <ellipse cx="0" cy="10" rx="50" ry="40" fill="#A1887F" stroke="#5D4037" stroke-width="3" />
+    
+    <!-- Head -->
+    <ellipse cx="50" cy="-20" rx="30" ry="25" fill="#A1887F" stroke="#5D4037" stroke-width="3" />
+    
+    <!-- Trunk -->
+    <path d="M70,-20 C90,0 90,20 70,40" fill="none" stroke="#5D4037" stroke-width="8" stroke-linecap="round" />
+    
+    <!-- Ears -->
+    <ellipse cx="35" cy="-40" rx="15" ry="20" fill="#8D6E63" stroke="#5D4037" stroke-width="2" transform="rotate(-30)" />
+    <ellipse cx="75" cy="-30" rx="15" ry="20" fill="#8D6E63" stroke="#5D4037" stroke-width="2" transform="rotate(30)" />
+    
+    <!-- Tusks -->
+    <path d="M65,-5 L85,5" stroke="#FFFDE7" stroke-width="5" stroke-linecap="round" />
+    <path d="M65,-35 L85,-25" stroke="#FFFDE7" stroke-width="5" stroke-linecap="round" />
+    
+    <!-- Eyes -->
+    <circle cx="60" cy="-30" r="3" fill="#3E2723" />
+    <circle cx="60" cy="-10" r="3" fill="#3E2723" />
+    
+    <!-- Howdah (Seat on Elephant Back) -->
+    <rect x="-25" y="-40" width="50" height="30" fill="#D32F2F" stroke="#B71C1C" stroke-width="2" rx="3" />
+    <path d="M-25,-40 L25,-40 M-25,-25 L25,-25 M-25,-10 L25,-10" stroke="#FFC107" stroke-width="2" />
+    
+    <!-- Decorative Cloth -->
+    <rect x="-40" y="-10" width="80" height="60" fill="#4CAF50" stroke="#2E7D32" stroke-width="2" rx="3" />
+    <path d="M-40,10 L40,10 M-40,30 L40,30" stroke="#FFC107" stroke-width="3" stroke-dasharray="4,2" />
+    <circle cx="0" cy="20" r="10" fill="#FFC107" />
+    
+    <!-- Legs -->
+    <rect x="-35" y="50" width="15" height="40" fill="#A1887F" stroke="#5D4037" stroke-width="2" rx="3" />
+    <rect x="-10" y="50" width="15" height="40" fill="#A1887F" stroke="#5D4037" stroke-width="2" rx="3" />
+    <rect x="15" y="50" width="15" height="40" fill="#A1887F" stroke="#5D4037" stroke-width="2" rx="3" />
+    <rect x="40" y="50" width="15" height="40" fill="#A1887F" stroke="#5D4037" stroke-width="2" rx="3" />
+  </g>
+  
+  <!-- Farmer with Bull -->
+  <g transform="translate(300, 200)">
+    <!-- Farmer body -->
+    <rect x="-15" y="-60" width="30" height="50" fill="#FF9800" stroke="#F57C00" stroke-width="2" rx="5" />
+    
+    <!-- Farmer head -->
+    <circle cx="0" cy="-80" r="20" fill="#FFD54F" stroke="#FFA000" stroke-width="2" />
+    
+    <!-- Farmer face -->
+    <circle cx="-7" cy="-85" r="3" fill="#5D4037" /> <!-- eye -->
+    <circle cx="7" cy="-85" r="3" fill="#5D4037" /> <!-- eye -->
+    <path d="M-7,-75 C-3,-70 3,-70 7,-75" stroke="#5D4037" stroke-width="1.5" fill="none" /> <!-- mouth -->
+    
+    <!-- Farmer turban -->
+    <path d="M-18,-100 C-10,-110 10,-110 18,-100" fill="#D32F2F" stroke="#B71C1C" stroke-width="2" />
+    <rect x="-18" y="-105" width="36" height="10" fill="#D32F2F" stroke="#B71C1C" stroke-width="1" rx="5" />
+    
+    <!-- Farmer arms -->
+    <line x1="-15" y1="-40" x2="-40" y2="-20" stroke="#FFD54F" stroke-width="6" stroke-linecap="round" />
+    <line x1="15" y1="-40" x2="40" y2="-20" stroke="#FFD54F" stroke-width="6" stroke-linecap="round" />
+    
+    <!-- Farmer legs -->
+    <line x1="-10" y1="-10" x2="-20" y2="30" stroke="#3E2723" stroke-width="8" stroke-linecap="round" />
+    <line x1="10" y1="-10" x2="20" y2="30" stroke="#3E2723" stroke-width="8" stroke-linecap="round" />
+    
+    <!-- Farmer stick/whip -->
+    <line x1="50" y1="-30" x2="80" y2="0" stroke="#8D6E63" stroke-width="2" />
+  </g>
+  
+  <!-- Decorative Elements -->
+  <g opacity="0.3">
+    <!-- Corner decorations -->
+    <path d="M50,50 L100,50 L100,100 L50,100 Z" fill="none" stroke="#D50000" stroke-width="2" />
+    <path d="M500,50 L550,50 L550,100 L500,100 Z" fill="none" stroke="#D50000" stroke-width="2" />
+    <path d="M50,300 L100,300 L100,350 L50,350 Z" fill="none" stroke="#D50000" stroke-width="2" />
+    <path d="M500,300 L550,300 L550,350 L500,350 Z" fill="none" stroke="#D50000" stroke-width="2" />
+    
+    <!-- Decorative circles -->
+    <circle cx="75" cy="75" r="10" fill="#FFC107" />
+    <circle cx="525" cy="75" r="10" fill="#FFC107" />
+    <circle cx="75" cy="325" r="10" fill="#FFC107" />
+    <circle cx="525" cy="325" r="10" fill="#FFC107" />
+  </g>
+  
+  <!-- "Kondapalli Toys" Label -->
+  <g transform="translate(300, 370)">
+    <rect x="-120" y="-25" width="240" height="40" rx="5" fill="#F57C00" opacity="0.9" />
+    <text x="0" y="0" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="white" text-anchor="middle" dominant-baseline="middle">Kondapalli Toys</text>
+  </g>
+</svg>

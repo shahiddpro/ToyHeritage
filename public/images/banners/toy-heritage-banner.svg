@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="600" viewBox="0 0 1200 600">
+  <defs>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 0 0 L 40 0 40 40 0 40 Z" fill="none" stroke="#FFA726" stroke-width="0.5" opacity="0.3" />
+    </pattern>
+  </defs>
+  <rect width="100%" height="100%" fill="#1A237E" />
+  <rect width="100%" height="100%" fill="url(#grid)" />
+  
+  <!-- Background decorative elements -->
+  <circle cx="200" cy="120" r="80" fill="#E64A19" opacity="0.2" />
+  <circle cx="1000" cy="480" r="100" fill="#E64A19" opacity="0.15" />
+  <circle cx="600" cy="300" r="200" fill="#FFA726" opacity="0.05" />
+  
+  <!-- Toys silhouettes -->
+  <!-- Wooden elephant -->
+  <path d="M300 300 C310 250, 350 240, 380 260 C410 280, 420 320, 400 340 C380 360, 350 370, 320 350 C290 330, 290 320, 300 300 Z" fill="#FFA726" opacity="0.8" />
+  <path d="M380 260 C390 255, 400 270, 405 280 C410 290, 415 300, 410 320 C405 340, 400 340, 400 340" fill="none" stroke="#FFA726" stroke-width="4" opacity="0.9" />
+  
+  <!-- Puppet -->
+  <rect x="500" y="200" width="40" height="100" rx="10" fill="#FFF9C4" opacity="0.8" />
+  <circle cx="520" cy="180" r="30" fill="#FFF9C4" opacity="0.8" />
+  <line x1="505" y1="220" x2="480" y2="260" stroke="#FFF9C4" stroke-width="5" opacity="0.8" />
+  <line x1="535" y1="220" x2="560" y2="260" stroke="#FFF9C4" stroke-width="5" opacity="0.8" />
+  <line x1="520" y1="300" x2="500" y2="350" stroke="#FFF9C4" stroke-width="5" opacity="0.8" />
+  <line x1="520" y1="300" x2="540" y2="350" stroke="#FFF9C4" stroke-width="5" opacity="0.8" />
+  <line x1="520" y1="150" x2="520" y2="120" stroke="#FFF9C4" stroke-width="2" opacity="0.8" />
+  <line x1="520" y1="120" x2="480" y2="100" stroke="#FFF9C4" stroke-width="2" opacity="0.8" />
+  <line x1="520" y1="120" x2="560" y2="100" stroke="#FFF9C4" stroke-width="2" opacity="0.8" />
+  
+  <!-- Spinning top -->
+  <path d="M700 320 L730 280 L760 320 Z" fill="#E64A19" opacity="0.8" />
+  <path d="M730 280 L730 240" stroke="#E64A19" stroke-width="3" opacity="0.8" />
+  
+  <!-- Clay doll -->
+  <ellipse cx="850" cy="300" rx="30" ry="50" fill="#BF360C" opacity="0.8" />
+  <circle cx="850" cy="230" r="25" fill="#BF360C" opacity="0.8" />
+  
+  <!-- Wooden train -->
+  <rect x="930" y="320" width="60" height="30" rx="5" fill="#8D6E63" opacity="0.8" />
+  <rect x="940" y="310" width="40" height="15" rx="3" fill="#8D6E63" opacity="0.8" />
+  <circle cx="940" cy="350" r="10" fill="#5D4037" opacity="0.8" />
+  <circle cx="980" cy="350" r="10" fill="#5D4037" opacity="0.8" />
+  <rect x="990" y="325" width="40" height="25" rx="5" fill="#8D6E63" opacity="0.8" />
+  <circle cx="1000" cy="350" r="10" fill="#5D4037" opacity="0.8" />
+  <circle cx="1030" cy="350" r="10" fill="#5D4037" opacity="0.8" />
+  
+  <!-- Decorative patterns -->
+  <path d="M150 400 C180 420, 220 420, 250 400 C280 380, 270 350, 250 340 C230 330, 170 330, 150 340 C130 350, 120 380, 150 400 Z" fill="none" stroke="#FFA726" stroke-width="2" opacity="0.6" />
+  <path d="M850 500 C880 480, 920 480, 950 500 C980 520, 970 550, 950 560 C930 570, 870 570, 850 560 C830 550, 820 520, 850 500 Z" fill="none" stroke="#FFA726" stroke-width="2" opacity="0.6" />
+  
+  <!-- Pattern motifs -->
+  <circle cx="200" cy="400" r="5" fill="#FFA726" opacity="0.6" />
+  <circle cx="200" cy="370" r="5" fill="#FFA726" opacity="0.6" />
+  <circle cx="170" cy="385" r="5" fill="#FFA726" opacity="0.6" />
+  <circle cx="230" cy="385" r="5" fill="#FFA726" opacity="0.6" />
+  
+  <circle cx="900" cy="530" r="5" fill="#FFA726" opacity="0.6" />
+  <circle cx="900" cy="500" r="5" fill="#FFA726" opacity="0.6" />
+  <circle cx="870" cy="515" r="5" fill="#FFA726" opacity="0.6" />
+  <circle cx="930" cy="515" r="5" fill="#FFA726" opacity="0.6" />
+</svg>

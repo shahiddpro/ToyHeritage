@@ -47,11 +47,12 @@ const CTASection = () => {
     <section className="py-16 px-4 md:px-8 bg-[#FFF8E1]">
       <div className="container mx-auto">
         <div className="bg-[#E64A19] rounded-xl overflow-hidden relative shadow-lg">
-          <div className="absolute top-0 right-0 w-1/3 h-full opacity-10">
-            {/* Decorative pattern */}
-            <div className="h-full" style={{
-              backgroundImage: 'repeating-linear-gradient(45deg, transparent, transparent 5px, #FFD700 5px, #FFD700 10px)'
-            }}></div>
+          <div className="absolute inset-0 w-full h-full">
+            <img
+              src="/images/banners/artisan-pattern.svg"
+              alt="Artisan pattern background"
+              className="w-full h-full object-cover opacity-30"
+            />
           </div>
           
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 p-8 md:p-12">

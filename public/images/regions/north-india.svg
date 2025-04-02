@@ -1,15 +1,66 @@
-<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
-  <rect width="100%" height="100%" fill="#f4f8f0"/>
-  <!-- Mountains -->
-  <polygon points="100,400 300,200 500,400 700,230 800,400 800,600 0,600 0,400" fill="#E1E8D5" />
-  <polygon points="150,430 300,250 450,430" fill="#B2C2A3" />
-  <polygon points="500,430 650,280 800,430" fill="#B2C2A3" />
-  <!-- Sun -->
-  <circle cx="650" cy="150" r="60" fill="#FFC857" />
-  <!-- Temple -->
-  <rect x="340" y="320" width="120" height="80" fill="#D7B377" />
-  <polygon points="340,320 400,240 460,320" fill="#D7B377" />
-  <rect x="380" y="360" width="40" height="40" fill="#8D5B4C" />
-  <text x="400" y="500" font-family="Arial" font-size="24" text-anchor="middle" fill="#4a5568">North India Region</text>
-  <text x="400" y="530" font-family="Arial" font-size="18" text-anchor="middle" fill="#718096">Ancient Himalayan Crafts</text>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="300" viewBox="0 0 600 300">
+  <!-- Background with subtle pattern -->
+  <rect width="600" height="300" fill="#f8f8f8" />
+  
+  <!-- Subtle background pattern -->
+  <pattern id="pattern-north" width="30" height="30" patternUnits="userSpaceOnUse">
+    <rect width="30" height="30" fill="#f8f8f8" />
+    <path d="M15,5 L25,15 L15,25 L5,15 Z" fill="none" stroke="#e0e0e0" stroke-width="1" />
+  </pattern>
+  <rect width="600" height="300" fill="url(#pattern-north)" />
+  
+  <!-- Northern India decorative elements -->
+  <g transform="translate(300, 150)">
+    <!-- Wooden toy symbol from Varanasi -->
+    <g transform="translate(-200, -50)">
+      <!-- Stylized wooden elephant -->
+      <path d="M30,0 C40,-10 60,-10 70,0 C80,10 80,30 70,40 C65,45 55,42 50,40 C45,42 35,45 30,40 C20,30 20,10 30,0 Z" 
+        fill="#8D6E63" stroke="#5D4037" stroke-width="2" />
+      <!-- Decorative carving -->
+      <path d="M40,10 L60,10 M40,20 L60,20 M40,30 L60,30" 
+        stroke="#5D4037" stroke-width="2" stroke-linecap="round" />
+      <!-- Tusks -->
+      <path d="M40,25 C35,30 30,35 25,30 M60,25 C65,30 70,35 75,30" 
+        fill="none" stroke="#FFF8E1" stroke-width="2" stroke-linecap="round" />
+    </g>
+    
+    <!-- Cloth doll from Punjab -->
+    <g transform="translate(0, -80)">
+      <!-- Doll figure -->
+      <rect x="-15" y="0" width="30" height="60" rx="10" fill="#D81B60" stroke="#880E4F" stroke-width="2" />
+      <!-- Head -->
+      <circle cx="0" cy="-20" r="20" fill="#FFE0B2" stroke="#FFCC80" stroke-width="2" />
+      <!-- Decorative elements on clothing -->
+      <path d="M-10,10 L10,10 M-12,20 L12,20 M-15,30 L15,30 M-12,40 L12,40 M-10,50 L10,50" 
+        stroke="#880E4F" stroke-width="1.5" stroke-dasharray="2 1" />
+      <!-- Traditional Phulkari embroidery pattern -->
+      <path d="M-5,5 L5,15 M5,5 L-5,15" stroke="#FFEB3B" stroke-width="1.5" />
+      <path d="M-5,25 L5,35 M5,25 L-5,35" stroke="#FFEB3B" stroke-width="1.5" />
+      <path d="M-5,45 L5,55 M5,45 L-5,55" stroke="#FFEB3B" stroke-width="1.5" />
+    </g>
+    
+    <!-- Rajasthan colorful puppets -->
+    <g transform="translate(180, -60)">
+      <!-- Puppet body -->
+      <rect x="-25" y="0" width="50" height="80" rx="5" fill="#FF9800" stroke="#E65100" stroke-width="2" />
+      <!-- Head -->
+      <circle cx="0" cy="-20" r="25" fill="#FFCCBC" stroke="#E65100" stroke-width="2" />
+      <!-- Decorative rajasthani patterns -->
+      <path d="M-20,10 L20,10 M-22,25 L22,25 M-25,40 L25,40 M-22,55 L22,55 M-20,70 L20,70" 
+        stroke="#E65100" stroke-width="2" stroke-dasharray="4 2" />
+      <!-- Crown/headgear -->
+      <path d="M-20,-40 L0,-60 L20,-40 Z" fill="#FFEB3B" stroke="#E65100" stroke-width="2" />
+      <!-- Mirror work style decoration -->
+      <circle cx="-10" cy="20" r="5" fill="#B3E5FC" stroke="#0288D1" stroke-width="1" />
+      <circle cx="10" cy="20" r="5" fill="#B3E5FC" stroke="#0288D1" stroke-width="1" />
+      <circle cx="0" cy="50" r="8" fill="#B3E5FC" stroke="#0288D1" stroke-width="1" />
+    </g>
+  </g>
+  
+  <!-- North India Label -->
+  <g transform="translate(30, 30)">
+    <rect x="0" y="0" width="160" height="40" rx="5" fill="#1A237E" opacity="0.9" />
+    <text x="80" y="28" font-family="'Arial', sans-serif" font-size="20" font-weight="bold" fill="white" text-anchor="middle">North India</text>
+  </g>
 </svg>

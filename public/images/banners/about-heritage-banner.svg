@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="600" viewBox="0 0 1200 600">
+  <!-- Background -->
+  <rect width="100%" height="100%" fill="#FFF8E1" />
+  
+  <!-- Decorative background patterns -->
+  <pattern id="indian-pattern" x="0" y="0" width="100" height="100" patternUnits="userSpaceOnUse">
+    <path d="M0 50 Q25 0, 50 50 T100 50" fill="none" stroke="#E64A19" stroke-width="1" opacity="0.2" />
+    <path d="M0 0 Q50 25, 0 50 T0 100" fill="none" stroke="#E64A19" stroke-width="1" opacity="0.2" />
+    <path d="M100 0 Q50 25, 100 50 T100 100" fill="none" stroke="#E64A19" stroke-width="1" opacity="0.2" />
+    <path d="M0 0 Q25 50, 50 0 T100 0" fill="none" stroke="#E64A19" stroke-width="1" opacity="0.2" />
+    <path d="M0 100 Q25 50, 50 100 T100 100" fill="none" stroke="#E64A19" stroke-width="1" opacity="0.2" />
+  </pattern>
+  
+  <rect width="100%" height="100%" fill="url(#indian-pattern)" />
+  
+  <!-- Toy elements grouped artistically -->
+  <g transform="translate(100, 100) scale(0.8)">
+    <!-- Wooden elephant -->
+    <path d="M100 250 C120 180, 200 150, 250 220 C280 260, 290 300, 250 350 C210 400, 160 380, 120 330 C80 280, 80 320, 100 250Z" fill="#8D6E63" />
+    <path d="M250 220 C270 210, 290 230, 300 260 C310 290, 290 310, 280 320" fill="none" stroke="#5D4037" stroke-width="3" />
+    <ellipse cx="230" cy="240" rx="10" ry="15" fill="#5D4037" />
+  </g>
+  
+  <g transform="translate(350, 150) scale(0.9)">
+    <!-- Clay doll -->
+    <path d="M200 100 C240 100, 260 150, 260 200 C260 250, 240 320, 220 350 C210 370, 190 370, 180 350 C160 320, 140 250, 140 200 C140 150, 160 100, 200 100Z" fill="#D84315" />
+    <ellipse cx="200" cy="80" rx="30" ry="35" fill="#D84315" />
+    <path d="M180 80 Q170 100, 190 110" stroke="#7B1FA2" stroke-width="2" />
+    <path d="M220 80 Q230 100, 210 110" stroke="#7B1FA2" stroke-width="2" />
+    <path d="M190 95 Q200 105, 210 95" stroke="#7B1FA2" stroke-width="2" />
+    
+    <!-- Decorative patterns on doll -->
+    <path d="M180 150 Q200 160, 220 150" stroke="#FFA726" stroke-width="2" />
+    <path d="M170 180 C180 190, 220 190, 230 180" stroke="#FFA726" stroke-width="2" />
+    <circle cx="200" cy="220" r="20" fill="none" stroke="#FFA726" stroke-width="2" />
+    <path d="M170 260 L230 260" stroke="#FFA726" stroke-width="2" />
+    <path d="M160 290 L240 290" stroke="#FFA726" stroke-width="2" />
+  </g>
+  
+  <g transform="translate(650, 200) scale(0.8)">
+    <!-- Wooden top -->
+    <path d="M200 50 L150 150 L250 150 Z" fill="#FF9800" />
+    <line x1="200" y1="20" x2="200" y2="50" stroke="#FF9800" stroke-width="3" />
+    <circle cx="200" cy="150" r="40" fill="#FF9800" />
+    <circle cx="200" cy="150" r="30" fill="#FFA726" />
+    <circle cx="200" cy="150" r="20" fill="#FFB74D" />
+    <circle cx="200" cy="150" r="10" fill="#FFCC80" />
+  </g>
+  
+  <g transform="translate(900, 150) scale(0.8)">
+    <!-- String puppet (kathputli) -->
+    <rect x="190" y="100" width="40" height="80" rx="10" fill="#FFA726" />
+    <circle cx="210" cy="80" r="30" fill="#FFCC80" />
+    <line x1="190" y1="120" x2="160" y2="150" stroke="#FFCC80" stroke-width="5" />
+    <line x1="230" y1="120" x2="260" y2="150" stroke="#FFCC80" stroke-width="5" />
+    <line x1="200" y1="180" x2="180" y2="240" stroke="#FFCC80" stroke-width="5" />
+    <line x1="220" y1="180" x2="240" y2="240" stroke="#FFCC80" stroke-width="5" />
+    <path d="M190 90 Q210 100, 230 90" stroke="#5D4037" stroke-width="2" />
+    <circle cx="200" cy="80" r="3" fill="#5D4037" />
+    <circle cx="220" cy="80" r="3" fill="#5D4037" />
+    
+    <!-- Puppet strings -->
+    <line x1="210" y1="30" x2="210" y2="80" stroke="#795548" stroke-width="1" />
+    <line x1="210" y1="30" x2="160" y2="150" stroke="#795548" stroke-width="1" />
+    <line x1="210" y1="30" x2="260" y2="150" stroke="#795548" stroke-width="1" />
+    <line x1="210" y1="30" x2="180" y2="240" stroke="#795548" stroke-width="1" />
+    <line x1="210" y1="30" x2="240" y2="240" stroke="#795548" stroke-width="1" />
+  </g>
+  
+  <!-- Heritage text elements -->
+  <g transform="translate(600, 450)">
+    <path d="M-400 0 C-300 -50, -100 -50, 0 0 C100 50, 300 50, 400 0" fill="none" stroke="#E64A19" stroke-width="3" opacity="0.7" />
+    <path d="M-350 40 C-250 -10, -50 -10, 0 40 C50 90, 250 90, 350 40" fill="none" stroke="#E64A19" stroke-width="2" opacity="0.6" />
+  </g>
+  
+  <!-- Artistic motifs -->
+  <circle cx="150" cy="500" r="40" fill="#E64A19" opacity="0.1" />
+  <circle cx="150" cy="500" r="30" fill="#E64A19" opacity="0.2" />
+  <circle cx="150" cy="500" r="20" fill="#E64A19" opacity="0.3" />
+  
+  <circle cx="1050" cy="500" r="40" fill="#E64A19" opacity="0.1" />
+  <circle cx="1050" cy="500" r="30" fill="#E64A19" opacity="0.2" />
+  <circle cx="1050" cy="500" r="20" fill="#E64A19" opacity="0.3" />
+  
+  <circle cx="150" cy="100" r="30" fill="#E64A19" opacity="0.1" />
+  <circle cx="150" cy="100" r="20" fill="#E64A19" opacity="0.2" />
+  
+  <circle cx="1050" cy="100" r="30" fill="#E64A19" opacity="0.1" />
+  <circle cx="1050" cy="100" r="20" fill="#E64A19" opacity="0.2" />
+</svg>

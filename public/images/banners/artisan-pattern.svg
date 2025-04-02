@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600">
+  <!-- Background -->
+  <rect width="100%" height="100%" fill="#E64A19" />
+  
+  <!-- Decorative pattern -->
+  <pattern id="artisan-pattern" x="0" y="0" width="60" height="60" patternUnits="userSpaceOnUse">
+    <!-- Small wooden toy icons -->
+    <circle cx="30" cy="30" r="2" fill="#FFF8E1" opacity="0.8" />
+    <circle cx="15" cy="15" r="2" fill="#FFF8E1" opacity="0.8" />
+    <circle cx="45" cy="15" r="2" fill="#FFF8E1" opacity="0.8" />
+    <circle cx="15" cy="45" r="2" fill="#FFF8E1" opacity="0.8" />
+    <circle cx="45" cy="45" r="2" fill="#FFF8E1" opacity="0.8" />
+    
+    <!-- Connecting lines -->
+    <line x1="15" y1="15" x2="30" y2="30" stroke="#FFF8E1" stroke-width="1" opacity="0.5" />
+    <line x1="45" y1="15" x2="30" y2="30" stroke="#FFF8E1" stroke-width="1" opacity="0.5" />
+    <line x1="15" y1="45" x2="30" y2="30" stroke="#FFF8E1" stroke-width="1" opacity="0.5" />
+    <line x1="45" y1="45" x2="30" y2="30" stroke="#FFF8E1" stroke-width="1" opacity="0.5" />
+    
+    <!-- Decorative elements -->
+    <path d="M0 0 Q15 15, 30 0" stroke="#FFD700" stroke-width="1" opacity="0.7" fill="none" />
+    <path d="M30 0 Q45 15, 60 0" stroke="#FFD700" stroke-width="1" opacity="0.7" fill="none" />
+    <path d="M0 60 Q15 45, 30 60" stroke="#FFD700" stroke-width="1" opacity="0.7" fill="none" />
+    <path d="M30 60 Q45 45, 60 60" stroke="#FFD700" stroke-width="1" opacity="0.7" fill="none" />
+    <path d="M0 30 Q15 15, 0 0" stroke="#FFD700" stroke-width="1" opacity="0.7" fill="none" />
+    <path d="M0 30 Q15 45, 0 60" stroke="#FFD700" stroke-width="1" opacity="0.7" fill="none" />
+    <path d="M60 30 Q45 15, 60 0" stroke="#FFD700" stroke-width="1" opacity="0.7" fill="none" />
+    <path d="M60 30 Q45 45, 60 60" stroke="#FFD700" stroke-width="1" opacity="0.7" fill="none" />
+  </pattern>
+  
+  <rect width="100%" height="100%" fill="url(#artisan-pattern)" />
+  
+  <!-- Large decorative elements -->
+  <g opacity="0.5">
+    <!-- Stylized artisan tools -->
+    <path d="M150 100 L350 100 C400 100, 400 200, 350 200 L150 200 C100 200, 100 100, 150 100 Z" fill="none" stroke="#FFD700" stroke-width="3" />
+    <path d="M450 300 L650 300 C700 300, 700 400, 650 400 L450 400 C400 400, 400 300, 450 300 Z" fill="none" stroke="#FFD700" stroke-width="3" />
+    <path d="M250 450 L550 450 C600 450, 600 550, 550 550 L250 550 C200 550, 200 450, 250 450 Z" fill="none" stroke="#FFD700" stroke-width="3" />
+    
+    <!-- Handicraft elements -->
+    <circle cx="250" cy="150" r="30" fill="none" stroke="#FFF8E1" stroke-width="2" />
+    <circle cx="550" cy="350" r="30" fill="none" stroke="#FFF8E1" stroke-width="2" />
+    <circle cx="400" cy="500" r="30" fill="none" stroke="#FFF8E1" stroke-width="2" />
+    
+    <!-- Decorative line motifs -->
+    <path d="M200 50 Q400 0, 600 50" fill="none" stroke="#FFD700" stroke-width="2" />
+    <path d="M200 550 Q400 600, 600 550" fill="none" stroke="#FFD700" stroke-width="2" />
+  </g>
+  
+  <!-- Traditional toy silhouettes -->
+  <g opacity="0.7">
+    <!-- Wooden elephant -->
+    <path d="M150 280 C170 250, 200 240, 220 270 C240 300, 230 330, 210 340 C190 350, 160 340, 140 320 C120 300, 130 310, 150 280 Z" fill="#FFF8E1" opacity="0.2" />
+    
+    <!-- Spinning top -->
+    <path d="M650 150 L620 200 L680 200 Z" fill="#FFF8E1" opacity="0.2" />
+    <line x1="650" y1="130" x2="650" y2="150" stroke="#FFF8E1" stroke-width="2" opacity="0.2" />
+    <circle cx="650" cy="200" r="20" fill="#FFF8E1" opacity="0.1" />
+    
+    <!-- Puppet -->
+    <rect x="370" y="150" width="30" height="70" rx="5" fill="#FFF8E1" opacity="0.2" />
+    <circle cx="385" cy="130" r="20" fill="#FFF8E1" opacity="0.2" />
+    <line x1="370" y1="170" x2="350" y2="200" stroke="#FFF8E1" stroke-width="3" opacity="0.2" />
+    <line x1="400" y1="170" x2="420" y2="200" stroke="#FFF8E1" stroke-width="3" opacity="0.2" />
+    <line x1="375" y1="220" x2="365" y2="250" stroke="#FFF8E1" stroke-width="3" opacity="0.2" />
+    <line x1="395" y1="220" x2="405" y2="250" stroke="#FFF8E1" stroke-width="3" opacity="0.2" />
+  </g>
+</svg>
