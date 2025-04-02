@@ -92,10 +92,13 @@ export class MemStorage implements IStorage {
     this.cartItemIdCounter = 1;
 
     // Initialize with sample data
-    this.initializeData();
+    // Since we can't use async in constructor, we call it and handle internally
+    this.initializeData().catch(err => {
+      console.error("Failed to initialize data:", err);
+    });
   }
 
-  private initializeData() {
+  private async initializeData() {
     // Create regions
     const regions = [
       {
@@ -133,7 +136,8 @@ export class MemStorage implements IStorage {
         address: "Channapatna, Karnataka",
         isArtisan: true,
         bio: "Ramesh has been crafting Channapatna toys for over 30 years, carrying forward the legacy of his grandfather who learned under the patronage of local royalty.",
-        region: "South India"
+        region: "South India",
+        imageUrl: "/images/artisans/ramesh-kumar.jpg"
       },
       {
         username: "laxmi_devi",
@@ -144,7 +148,8 @@ export class MemStorage implements IStorage {
         address: "Krishnanagar, West Bengal",
         isArtisan: true,
         bio: "Known for her intricate clay figurines depicting rural Bengali life, Laxmi has received national recognition for preserving this ancient art form.",
-        region: "East India"
+        region: "East India",
+        imageUrl: "/images/artisans/laxmi-devi.webp"
       },
       {
         username: "mohan_singh",
@@ -155,15 +160,18 @@ export class MemStorage implements IStorage {
         address: "Jaisalmer, Rajasthan",
         isArtisan: true,
         bio: "A renowned puppeteer from Rajasthan, Mohan creates traditional kathputli puppets that tell stories of Rajasthani folklore and mythology.",
-        region: "North India"
+        region: "North India",
+        imageUrl: "/images/artisans/mohan-singh.webp"
       }
     ];
 
     const artisanIds: number[] = [];
-    artisans.forEach(artisan => {
-      const createdArtisan = this.createUser(artisan);
+    
+    // Create artisans synchronously to ensure IDs are set correctly
+    for (const artisan of artisans) {
+      const createdArtisan = await this.createUser(artisan);
       artisanIds.push(createdArtisan.id);
-    });
+    }
 
     // Create products
     const products = [
@@ -295,7 +303,16 @@ export class MemStorage implements IStorage {
       }
     ];
 
-    products.forEach(product => this.createProduct(product as any));
+    // Add products one by one with proper typing
+    for (const product of products) {
+      await this.createProduct({
+        ...product,
+        stock: product.stock || 0,
+        history: product.history || null,
+        culturalSignificance: product.culturalSignificance || null,
+        featured: product.featured || false
+      });
+    }
   }
 
   // User operations
@@ -311,7 +328,16 @@ export class MemStorage implements IStorage {
 
   async createUser(user: InsertUser): Promise<User> {
     const id = this.userIdCounter++;
-    const newUser: User = { ...user, id };
+    const newUser: User = { 
+      ...user, 
+      id,
+      phoneNumber: user.phoneNumber || null,
+      address: user.address || null,
+      isArtisan: user.isArtisan || false,
+      bio: user.bio || null,
+      region: user.region || null,
+      imageUrl: user.imageUrl || null
+    };
     this.users.set(id, newUser);
     return newUser;
   }
@@ -345,7 +371,14 @@ export class MemStorage implements IStorage {
 
   async createProduct(product: InsertProduct): Promise<Product> {
     const id = this.productIdCounter++;
-    const newProduct = { ...product, id };
+    const newProduct: Product = { 
+      ...product, 
+      id,
+      stock: product.stock || 0,
+      history: product.history || null,
+      culturalSignificance: product.culturalSignificance || null,
+      featured: product.featured || false
+    };
     this.products.set(id, newProduct);
     return newProduct;
   }
@@ -470,7 +503,11 @@ export class MemStorage implements IStorage {
 
   async createReview(review: InsertReview): Promise<Review> {
     const id = this.reviewIdCounter++;
-    const newReview = { ...review, id };
+    const newReview: Review = { 
+      ...review, 
+      id,
+      comment: review.comment || null
+    };
     this.reviews.set(id, newReview);
     return newReview;
   }

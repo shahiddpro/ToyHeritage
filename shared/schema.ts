@@ -14,6 +14,7 @@ export const users = pgTable("users", {
   isArtisan: boolean("is_artisan").default(false),
   bio: text("bio"),
   region: text("region"),
+  imageUrl: text("image_url"),
 });
 
 export const insertUserSchema = createInsertSchema(users).pick({
@@ -26,6 +27,7 @@ export const insertUserSchema = createInsertSchema(users).pick({
   isArtisan: true,
   bio: true,
   region: true,
+  imageUrl: true,
 });
 
 // Product Schema
