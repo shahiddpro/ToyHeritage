@@ -75,25 +75,25 @@ const AboutSection = () => {
           <div className="grid grid-cols-2 gap-4">
             <div className="space-y-4">
               <img 
-                src="https://images.unsplash.com/photo-1618842676088-c4489444c0d4?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=80" 
-                alt="Traditional wooden toy making process" 
+                src="/images/smth.webp" 
+                alt="Traditional toy crafting" 
                 className="w-full h-48 object-cover rounded-lg"
               />
               <img 
-                src="https://images.unsplash.com/photo-1602934585418-f588bea4215a?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=80" 
-                alt="Display of traditional Indian toys" 
+                src="/images/smth_2.jpg" 
+                alt="Traditional toy making" 
                 className="w-full h-64 object-cover rounded-lg"
               />
             </div>
             <div className="space-y-4 mt-8">
               <img 
-                src="https://images.unsplash.com/photo-1598875184988-5e67b1a874b8?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=80" 
-                alt="Children playing with traditional toys" 
+                src="/images/smth_3.webp" 
+                alt="Traditional toy creation" 
                 className="w-full h-64 object-cover rounded-lg"
               />
               <img 
-                src="https://images.unsplash.com/photo-1600595289860-fc1fa58ec456?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=80" 
-                alt="Artisan working on clay toys" 
+                src="/images/artisans_working_on_clay_tos.jpg" 
+                alt="Artisans working on clay toys" 
                 className="w-full h-48 object-cover rounded-lg"
               />
             </div>
