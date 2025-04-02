@@ -13,9 +13,9 @@ interface Artisan {
 }
 
 const artisanImages = [
-  "https://images.unsplash.com/photo-1589876881899-a88aab179c22",
-  "https://images.unsplash.com/photo-1594398901394-4e34939a4fd0",
-  "https://images.unsplash.com/photo-1551101194-5b95efa63f54"
+  "/images/artisans/artisan-south.svg", 
+  "/images/artisans/artisan-east.svg",
+  "/images/artisans/artisan-north.svg"
 ];
 
 const specialties = ["Wooden Toys", "Clay Dolls", "Kathputli"];

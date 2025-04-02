@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <!-- Background -->
+  <rect width="200" height="200" fill="#fef6e4"/>
+  
+  <!-- Wooden handle -->
+  <rect x="80" y="130" width="40" height="60" rx="5" ry="5" fill="#8b5a2b"/>
+  <rect x="85" y="135" width="30" height="50" rx="3" ry="3" fill="#a67c52"/>
+  
+  <!-- Rattle body -->
+  <ellipse cx="100" cy="90" rx="60" ry="60" fill="#f28f3b"/>
+  <ellipse cx="100" cy="90" rx="50" ry="50" fill="#ffd166"/>
+  
+  <!-- Decorative elements -->
+  <circle cx="100" cy="90" r="35" fill="#fb6107"/>
+  <circle cx="100" cy="90" r="25" fill="#f9c74f"/>
+  <circle cx="100" cy="90" r="15" fill="#43aa8b"/>
+  
+  <!-- Bells/noise elements -->
+  <circle cx="65" cy="90" r="8" fill="#f5dd90"/>
+  <circle cx="135" cy="90" r="8" fill="#f5dd90"/>
+  <circle cx="100" cy="55" r="8" fill="#f5dd90"/>
+  <circle cx="100" cy="125" r="8" fill="#f5dd90"/>
+  
+  <!-- Rattle motion lines -->
+  <path d="M30,70 Q40,65 50,70" stroke="#c7c7c7" stroke-width="2" fill="none"/>
+  <path d="M25,85 Q35,80 45,85" stroke="#c7c7c7" stroke-width="2" fill="none"/>
+  <path d="M30,100 Q40,95 50,100" stroke="#c7c7c7" stroke-width="2" fill="none"/>
+  
+  <path d="M150,70 Q160,65 170,70" stroke="#c7c7c7" stroke-width="2" fill="none"/>
+  <path d="M155,85 Q165,80 175,85" stroke="#c7c7c7" stroke-width="2" fill="none"/>
+  <path d="M150,100 Q160,95 170,100" stroke="#c7c7c7" stroke-width="2" fill="none"/>
+</svg>
