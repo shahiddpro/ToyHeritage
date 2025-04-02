@@ -8,10 +8,12 @@ interface Artisan {
   region: string;
   bio: string;
   isArtisan: boolean;
+  imageUrl?: string;
   [key: string]: any;
 }
 
-const artisanImages = [
+// Fallback images if artisan doesn't have one
+const fallbackArtisanImages = [
   "/images/artisans/artisan-south.svg",
   "/images/artisans/artisan-east.svg",
   "/images/artisans/artisan-north.svg"
@@ -31,7 +33,7 @@ const Artisans = () => {
       <div className="relative mb-12">
         <div className="h-64 md:h-80 bg-[#1A237E] rounded-xl overflow-hidden">
           <img 
-            src="/images/artisans/artisan-north.svg" 
+            src="/images/regions/north-india.webp" 
             alt="Artisans working on traditional crafts" 
             className="w-full h-full object-cover opacity-30"
           />
@@ -88,7 +90,7 @@ const Artisans = () => {
               <ArtisanCard 
                 key={artisan.id} 
                 artisan={artisan} 
-                imageUrl={artisanImages[index % artisanImages.length]}
+                imageUrl={artisan.imageUrl || fallbackArtisanImages[index % fallbackArtisanImages.length]}
                 specialty={specialties[index % specialties.length]}
                 experience={experiences[index % experiences.length]}
               />
