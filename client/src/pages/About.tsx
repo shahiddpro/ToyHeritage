@@ -203,59 +203,7 @@ const About = () => {
         </div>
       </section>
 
-      {/* Our team */}
-      <section className="mb-16">
-        <h2 className="font-serif text-3xl text-center mb-8">Meet Our Team</h2>
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-          <div className="bg-white rounded-xl shadow-md overflow-hidden">
-            <div className="h-64 bg-gray-200">
-              <svg className="h-full w-full text-gray-300" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" fill="currentColor" viewBox="0 0 640 512">
-                <path d="M104 136a56 56 0 1 1 112 0A56 56 0 1 1 104 136zm120 312c17.7 0 32-14.3 32-32v-8c0-48.6-39.4-88-88-88h-8c-48.6 0-88 39.4-88 88v8c0 17.7 14.3 32 32 32h120zm200-112a56 56 0 1 1 112 0 56 56 0 1 1 -112 0zm120 112c17.7 0 32-14.3 32-32v-8c0-48.6-39.4-88-88-88h-8c-48.6 0-88 39.4-88 88v8c0 17.7 14.3 32 32 32h120z" />
-              </svg>
-            </div>
-            <div className="p-6">
-              <h3 className="font-medium text-xl mb-1">Anjali Sharma</h3>
-              <p className="text-[#E64A19] mb-3">Founder & CEO</p>
-              <p className="text-gray-700">
-                With a background in cultural anthropology and a passion for traditional crafts, Anjali founded ToyCraft to 
-                bridge the gap between artisans and global markets.
-              </p>
-            </div>
-          </div>
-          
-          <div className="bg-white rounded-xl shadow-md overflow-hidden">
-            <div className="h-64 bg-gray-200">
-              <svg className="h-full w-full text-gray-300" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" fill="currentColor" viewBox="0 0 640 512">
-                <path d="M104 136a56 56 0 1 1 112 0A56 56 0 1 1 104 136zm120 312c17.7 0 32-14.3 32-32v-8c0-48.6-39.4-88-88-88h-8c-48.6 0-88 39.4-88 88v8c0 17.7 14.3 32 32 32h120zm200-112a56 56 0 1 1 112 0 56 56 0 1 1 -112 0zm120 112c17.7 0 32-14.3 32-32v-8c0-48.6-39.4-88-88-88h-8c-48.6 0-88 39.4-88 88v8c0 17.7 14.3 32 32 32h120z" />
-              </svg>
-            </div>
-            <div className="p-6">
-              <h3 className="font-medium text-xl mb-1">Rajeev Patel</h3>
-              <p className="text-[#E64A19] mb-3">Head of Artisan Relations</p>
-              <p className="text-gray-700">
-                Born into a family of traditional toy makers, Rajeev brings firsthand knowledge of craft traditions and deep 
-                connections with artisan communities across India.
-              </p>
-            </div>
-          </div>
-          
-          <div className="bg-white rounded-xl shadow-md overflow-hidden">
-            <div className="h-64 bg-gray-200">
-              <svg className="h-full w-full text-gray-300" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" fill="currentColor" viewBox="0 0 640 512">
-                <path d="M104 136a56 56 0 1 1 112 0A56 56 0 1 1 104 136zm120 312c17.7 0 32-14.3 32-32v-8c0-48.6-39.4-88-88-88h-8c-48.6 0-88 39.4-88 88v8c0 17.7 14.3 32 32 32h120zm200-112a56 56 0 1 1 112 0 56 56 0 1 1 -112 0zm120 112c17.7 0 32-14.3 32-32v-8c0-48.6-39.4-88-88-88h-8c-48.6 0-88 39.4-88 88v8c0 17.7 14.3 32 32 32h120z" />
-              </svg>
-            </div>
-            <div className="p-6">
-              <h3 className="font-medium text-xl mb-1">Maya Reddy</h3>
-              <p className="text-[#E64A19] mb-3">Cultural Documentation</p>
-              <p className="text-gray-700">
-                With a background in museum curation, Maya leads our efforts to document and share the rich histories and 
-                techniques behind each toy tradition we represent.
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
+      
 
       {/* CTA */}
       <section className="text-center mb-16">
