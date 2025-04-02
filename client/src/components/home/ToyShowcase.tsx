@@ -138,8 +138,8 @@ const ToyShowcase = () => {
               
               <div className="order-1 md:order-2 h-64 md:h-auto">
                 <img 
-                  src="https://images.unsplash.com/photo-1598875184988-5e67b1a874b8?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" 
-                  alt="Collection of Channapatna wooden toys" 
+                  src="/images/products/channapatna-toytown.jpg" 
+                  alt="Collection of Channapatna wooden toys at Karnataka Handicrafts Emporium" 
                   className="w-full h-full object-cover"
                 />
               </div>
