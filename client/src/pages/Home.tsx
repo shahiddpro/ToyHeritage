@@ -6,7 +6,6 @@ import ToyShowcase from "@/components/home/ToyShowcase";
 import ArtisanSection from "@/components/home/ArtisanSection";
 import AboutSection from "@/components/home/AboutSection";
 import CTASection from "@/components/home/CTASection";
-import ToyHeritage from "@/components/home/ToyHeritage";
 
 const Home = () => {
   return (
@@ -16,7 +15,6 @@ const Home = () => {
       <FeaturedToys />
       <RegionSection />
       <ToyShowcase />
-      <ToyHeritage />
       <ArtisanSection />
       <AboutSection />
       <CTASection />

@@ -1,133 +1,21 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" width="600" height="300" viewBox="0 0 600 300">
-  <!-- Background with subtle pattern -->
-  <rect width="600" height="300" fill="#f8f8f8" />
-  
-  <!-- Subtle background pattern -->
-  <pattern id="pattern-west" width="50" height="50" patternUnits="userSpaceOnUse">
-    <rect width="50" height="50" fill="#f8f8f8" />
-    <circle cx="25" cy="25" r="1" fill="#e0e0e0" />
-    <path d="M0,25 L50,25 M25,0 L25,50" stroke="#e0e0e0" stroke-width="0.5" />
-  </pattern>
-  <rect width="600" height="300" fill="url(#pattern-west)" />
-  
-  <!-- Western India decorative elements -->
-  <g transform="translate(300, 150)">
-    <!-- Wooden Toy from Gujarat -->
-    <g transform="translate(-200, -50)">
-      <!-- Main structure - Rocking Horse -->
-      <!-- Body -->
-      <ellipse cx="50" cy="0" rx="40" ry="25" fill="#C5A37F" stroke="#8D6E63" stroke-width="2" />
-      
-      <!-- Neck -->
-      <path d="M80,-10 C90,-40 80,-60 70,-70" fill="none" stroke="#C5A37F" stroke-width="15" stroke-linecap="round" />
-      
-      <!-- Head -->
-      <ellipse cx="65" cy="-80" rx="20" ry="15" fill="#C5A37F" stroke="#8D6E63" stroke-width="2" transform="rotate(-15)" />
-      
-      <!-- Ears -->
-      <path d="M70,-90 L80,-100 L90,-90" fill="#C5A37F" stroke="#8D6E63" stroke-width="2" />
-      
-      <!-- Eye -->
-      <circle cx="60" cy="-85" r="3" fill="#5D4037" />
-      
-      <!-- Mane -->
-      <path d="M75,-70 L85,-80 M70,-65 L80,-75 M65,-60 L75,-70" stroke="#8D6E63" stroke-width="2" />
-      
-      <!-- Rockers -->
-      <path d="M10,-15 C-30,30 40,80 90,30 C120,0 100,-30 90,-15" fill="none" stroke="#8D6E63" stroke-width="5" stroke-linecap="round" />
-      
-      <!-- Decorative patterns -->
-      <path d="M30,0 L70,0 M40,-10 L60,-10 M40,10 L60,10" stroke="#FF6D00" stroke-width="2" stroke-dasharray="2,1" />
-      
-      <!-- Saddle -->
-      <rect x="40" y="-15" width="20" height="15" rx="3" fill="#AC7A5E" stroke="#8D6E63" stroke-width="1" />
-      
-      <!-- Mirror work (typical of Gujarat) -->
-      <circle cx="30" cy="-5" r="5" fill="#B3E5FC" stroke="#0288D1" stroke-width="1" />
-      <circle cx="70" cy="-5" r="5" fill="#B3E5FC" stroke="#0288D1" stroke-width="1" />
-      <circle cx="50" cy="12" r="5" fill="#B3E5FC" stroke="#0288D1" stroke-width="1" />
-    </g>
-    
-    <!-- Clay Figure from Maharashtra -->
-    <g transform="translate(0, -60)">
-      <!-- Base -->
-      <ellipse cx="0" cy="70" rx="30" ry="10" fill="#D7CCC8" stroke="#BCAAA4" stroke-width="2" />
-      
-      <!-- Body -->
-      <path d="M-20,0 L20,0 L15,70 L-15,70 Z" fill="#BCAAA4" stroke="#A1887F" stroke-width="2" />
-      
-      <!-- Sari/Cloth draping -->
-      <path d="M-15,20 C-5,25 5,25 15,20" stroke="#A1887F" stroke-width="2" fill="none" />
-      <path d="M-12,40 C-4,45 4,45 12,40" stroke="#A1887F" stroke-width="2" fill="none" />
-      
-      <!-- Arms -->
-      <rect x="-35" y="10" width="15" height="40" rx="5" fill="#BCAAA4" stroke="#A1887F" stroke-width="2" />
-      <rect x="20" y="10" width="15" height="40" rx="5" fill="#BCAAA4" stroke="#A1887F" stroke-width="2" />
-      
-      <!-- Head -->
-      <circle cx="0" cy="-20" r="20" fill="#BCAAA4" stroke="#A1887F" stroke-width="2" />
-      
-      <!-- Face details -->
-      <circle cx="-7" cy="-25" r="3" fill="#5D4037" /> <!-- Left eye -->
-      <circle cx="7" cy="-25" r="3" fill="#5D4037" /> <!-- Right eye -->
-      <path d="M-5,-15 C-2,-10 2,-10 5,-15" stroke="#5D4037" stroke-width="1" fill="none" /> <!-- Smile -->
-      <circle cx="0" cy="-32" r="2" fill="#5D4037" /> <!-- Bindi -->
-      
-      <!-- Jewelry and traditional Maharashtrian design -->
-      <path d="M-10,-5 L10,-5" stroke="#FF6D00" stroke-width="2" /> <!-- Necklace -->
-      <circle cx="-10" cy="30" r="5" fill="#FF6D00" stroke="#E65100" stroke-width="1" /> <!-- Decorative pattern -->
-      <circle cx="10" cy="30" r="5" fill="#FF6D00" stroke="#E65100" stroke-width="1" /> <!-- Decorative pattern -->
-      <path d="M-15,50 L15,50" stroke="#FF6D00" stroke-width="2" /> <!-- Decorative belt -->
-      
-      <!-- Headdress/veil -->
-      <path d="M-20,-30 C-10,-45 10,-45 20,-30" fill="#BCAAA4" stroke="#A1887F" stroke-width="2" />
-    </g>
-    
-    <!-- Tribal Art Toy from Rajasthan/Gujarat Border -->
-    <g transform="translate(200, -50)">
-      <!-- Base -->
-      <rect x="-25" y="50" width="50" height="10" rx="3" fill="#FFCC80" stroke="#FFA726" stroke-width="2" />
-      
-      <!-- Main figure - tribal dancer -->
-      <rect x="-5" y="-40" width="10" height="90" fill="#FFCC80" stroke="#FFA726" stroke-width="1" /> <!-- Body/pole -->
-      
-      <!-- Head -->
-      <circle cx="0" cy="-50" r="15" fill="#FFCC80" stroke="#FFA726" stroke-width="2" />
-      
-      <!-- Face details styled in tribal art pattern -->
-      <circle cx="-5" cy="-55" r="2" fill="#E65100" /> <!-- Left eye -->
-      <circle cx="5" cy="-55" r="2" fill="#E65100" /> <!-- Right eye -->
-      <path d="M-3,-45 L3,-45" stroke="#E65100" stroke-width="1" /> <!-- Mouth -->
-      
-      <!-- Turban/headgear -->
-      <path d="M-15,-65 L0,-75 L15,-65 Z" fill="#FF5722" stroke="#E64A19" stroke-width="2" />
-      <path d="M-12,-62 L12,-62" stroke="#FFA726" stroke-width="2" />
-      
-      <!-- Arms -->
-      <path d="M-5,0 L-40,-20" stroke="#FFCC80" stroke-width="5" stroke-linecap="round" />
-      <path d="M5,0 L40,-20" stroke="#FFCC80" stroke-width="5" stroke-linecap="round" />
-      
-      <!-- Traditional tribal skirt -->
-      <path d="M-20,30 L-5,30 L-5,50 L-20,50 Z" fill="#FF5722" stroke="#E64A19" stroke-width="1" />
-      <path d="M5,30 L20,30 L20,50 L5,50 Z" fill="#FF5722" stroke="#E64A19" stroke-width="1" />
-      
-      <!-- Tribal patterns on skirt -->
-      <path d="M-18,35 L-7,35 M-18,40 L-7,40 M-18,45 L-7,45" stroke="#FFC107" stroke-width="1" />
-      <path d="M7,35 L18,35 M7,40 L18,40 M7,45 L18,45" stroke="#FFC107" stroke-width="1" />
-      
-      <!-- Decorative elements -->
-      <circle cx="-40" cy="-20" r="7" fill="#FF5722" stroke="#E64A19" stroke-width="1" /> <!-- Hand decoration -->
-      <circle cx="40" cy="-20" r="7" fill="#FF5722" stroke="#E64A19" stroke-width="1" /> <!-- Hand decoration -->
-      
-      <!-- Movement mechanism -->
-      <path d="M-25,50 L-25,60 L25,60 L25,50" fill="none" stroke="#FFA726" stroke-width="2" stroke-dasharray="2,1" />
-    </g>
-  </g>
-  
-  <!-- West India Label -->
-  <g transform="translate(30, 30)">
-    <rect x="0" y="0" width="160" height="40" rx="5" fill="#1A237E" opacity="0.9" />
-    <text x="80" y="28" font-family="'Arial', sans-serif" font-size="20" font-weight="bold" fill="white" text-anchor="middle">West India</text>
-  </g>
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+  <rect width="100%" height="100%" fill="#FFF8E1"/>
+  <!-- Desert -->
+  <path d="M0,350 C100,320 200,370 300,330 C400,300 500,350 600,320 C700,290 800,330 800,330 L800,600 L0,600 Z" fill="#FFE0B2" />
+  <!-- Sand dunes -->
+  <path d="M100,400 C150,380 200,400 250,380 C300,360 350,380 400,360" fill="none" stroke="#FFCC80" stroke-width="8" />
+  <path d="M450,370 C500,350 550,370 600,350 C650,330 700,350 750,330" fill="none" stroke="#FFCC80" stroke-width="8" />
+  <!-- Sun -->
+  <circle cx="650" cy="150" r="60" fill="#FFB74D" />
+  <circle cx="650" cy="150" r="45" fill="#FF9800" />
+  <!-- Cactus -->
+  <rect x="200" y="250" width="20" height="100" fill="#689F38" />
+  <path d="M200,280 C170,280 170,260 200,260" fill="#689F38" />
+  <path d="M220,300 C250,300 250,280 220,280" fill="#689F38" />
+  <!-- Traditional hut -->
+  <rect x="400" y="280" width="100" height="70" fill="#D7CCC8" />
+  <polygon points="400,280 450,220 500,280" fill="#A1887F" />
+  <rect x="430" y="310" width="40" height="40" fill="#6D4C41" />
+  <text x="400" y="500" font-family="Arial" font-size="24" text-anchor="middle" fill="#E65100">West India Region</text>
+  <text x="400" y="530" font-family="Arial" font-size="18" text-anchor="middle" fill="#F57C00">Gujarat & Rajasthan Crafts</text>
 </svg>
