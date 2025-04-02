@@ -105,8 +105,8 @@ const About = () => {
                 className="w-full h-64 object-cover rounded-lg"
               />
               <img 
-                src="/images/smth.webp" 
-                alt="Traditional toy crafting" 
+                src="/images/artisans_working_on_clay_tos.jpg" 
+                alt="Artisans working on clay toys" 
                 className="w-full h-48 object-cover rounded-lg"
               />
             </div>
