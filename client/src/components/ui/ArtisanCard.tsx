@@ -17,7 +17,7 @@ interface ArtisanCardProps {
 
 const ArtisanCard = ({ 
   artisan, 
-  imageUrl = "https://images.unsplash.com/photo-1589876881899-a88aab179c22", 
+  imageUrl = "/images/artisans/artisan-south.svg", 
   specialty = "Wooden Toys",
   experience = "Master Craftsman" 
 }: ArtisanCardProps) => {

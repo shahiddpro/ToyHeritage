@@ -12,9 +12,9 @@ interface Artisan {
 }
 
 const artisanImages = [
-  "https://images.unsplash.com/photo-1589876881899-a88aab179c22",
-  "https://images.unsplash.com/photo-1594398901394-4e34939a4fd0",
-  "https://images.unsplash.com/photo-1551101194-5b95efa63f54"
+  "/images/artisans/artisan-south.svg",
+  "/images/artisans/artisan-east.svg",
+  "/images/artisans/artisan-north.svg"
 ];
 
 const specialties = ["Wooden Toys", "Clay Dolls", "Kathputli", "Cloth Toys", "Metal Crafts"];
@@ -31,7 +31,7 @@ const Artisans = () => {
       <div className="relative mb-12">
         <div className="h-64 md:h-80 bg-[#1A237E] rounded-xl overflow-hidden">
           <img 
-            src="https://images.unsplash.com/photo-1551101194-5b95efa63f54?ixlib=rb-1.2.1&auto=format&fit=crop&w=1200&q=80" 
+            src="/images/artisans/artisan-north.svg" 
             alt="Artisans working on traditional crafts" 
             className="w-full h-full object-cover opacity-30"
           />
