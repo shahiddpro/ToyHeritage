@@ -101,22 +101,22 @@ export class MemStorage implements IStorage {
       {
         name: "North India",
         description: "Discover wooden toys from Varanasi, cloth dolls from Punjab, and colorful puppets from Rajasthan.",
-        imageUrl: "https://images.unsplash.com/photo-1599044348756-11adc5b02b27"
+        imageUrl: "https://images.unsplash.com/photo-1616422285623-13ff0162193c"
       },
       {
         name: "South India",
         description: "Explore Channapatna toys from Karnataka, Kondapalli toys from Andhra Pradesh, and leather puppets.",
-        imageUrl: "https://images.unsplash.com/photo-1601050690597-df0568f70950"
+        imageUrl: "https://images.unsplash.com/photo-1582560480824-0c89badc1d22"
       },
       {
         name: "East India",
         description: "Discover clay dolls from West Bengal, bamboo toys from Assam, and painted wooden figures.",
-        imageUrl: "https://images.unsplash.com/photo-1531950111786-c0600b8a319f"
+        imageUrl: "https://images.unsplash.com/photo-1600763771883-93a25f3576a3"
       },
       {
         name: "West India",
         description: "Explore wooden toys from Gujarat, clay figures from Maharashtra, and tribal art toys.",
-        imageUrl: "https://images.unsplash.com/photo-1525268771113-32d9e9021a97"
+        imageUrl: "https://images.unsplash.com/photo-1601375384110-8cbb438bbcce"
       }
     ];
 
@@ -174,7 +174,7 @@ export class MemStorage implements IStorage {
         category: "Wooden Toys",
         region: "South India",
         material: "Wood",
-        imageUrl: "https://images.unsplash.com/photo-1602934585418-f588bea4215a",
+        imageUrl: "https://images.unsplash.com/photo-1529978755210-7f13333beb13",
         artisanId: artisanIds[0],
         stock: 15,
         history: "Channapatna toys have a rich history dating back to the reign of Tipu Sultan who invited Persian artisans to train local craftsmen in toy making. The craft has been passed down through generations for over 200 years.",
@@ -188,7 +188,7 @@ export class MemStorage implements IStorage {
         category: "Clay Crafts",
         region: "East India",
         material: "Clay",
-        imageUrl: "https://images.unsplash.com/photo-1600595289860-fc1fa58ec456",
+        imageUrl: "https://images.unsplash.com/photo-1624380877099-24e51f64bb28",
         artisanId: artisanIds[1],
         stock: 20,
         history: "The tradition of making clay dolls in West Bengal dates back several centuries. Krishnanagar in particular is famous for its lifelike clay dolls that showcase the region's artistic excellence.",
@@ -202,7 +202,7 @@ export class MemStorage implements IStorage {
         category: "Puppets & Dolls",
         region: "North India",
         material: "Cloth and Wood",
-        imageUrl: "https://images.unsplash.com/photo-1606293926249-ed2332ef3dc3",
+        imageUrl: "https://images.unsplash.com/photo-1558617350-029a62b2c49c",
         artisanId: artisanIds[2],
         stock: 10,
         history: "Kathputli puppetry originated in Rajasthan over a thousand years ago. Traditionally performed by nomadic tribes, these puppets have been used to tell stories from mythology and folklore.",
@@ -216,7 +216,7 @@ export class MemStorage implements IStorage {
         category: "Wooden Toys",
         region: "South India",
         material: "Wood",
-        imageUrl: "https://images.unsplash.com/photo-1600758208050-a22f660a52ce",
+        imageUrl: "https://images.unsplash.com/photo-1618331835717-801e976710b2",
         artisanId: artisanIds[0],
         stock: 8,
         history: "Kondapalli toys have been crafted in the Kondapalli village near Vijayawada for over 400 years. The craft gained prominence during the rule of Krishna Deva Raya of the Vijayanagara Empire.",
@@ -244,7 +244,7 @@ export class MemStorage implements IStorage {
         category: "Wooden Toys",
         region: "South India",
         material: "Wood",
-        imageUrl: "https://images.unsplash.com/photo-1596464716127-f2a82984de30",
+        imageUrl: "https://images.unsplash.com/photo-1515488042361-ee00e0ddd4e4",
         artisanId: artisanIds[0],
         stock: 12,
         history: "Train toys became popular in Indian toy culture with the introduction of railways during the colonial period. Today's versions maintain traditional crafting techniques.",
