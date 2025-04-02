@@ -4,7 +4,6 @@ import ProductGrid from "@/components/ui/ProductGrid";
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import { Separator } from "@/components/ui/separator";
-import { getTruncatedImageUrl } from "@/lib/utils";
 
 interface Artisan {
   id: number;
@@ -29,6 +28,7 @@ interface Product {
   region: string;
   material: string;
   imageUrl: string;
+  stock: number;
   [key: string]: any;
 }
 
@@ -94,8 +94,8 @@ const ArtisanDetail = () => {
     );
   }
 
-  // Choose image based on artisan ID
-  const artisanImage = artisanImages[artisan.id % artisanImages.length];
+  // Use the artisan's image URL if available, otherwise fall back to a default
+  const artisanImage = artisan.imageUrl || artisanImages[artisan.id % artisanImages.length];
 
   return (
     <div className="container mx-auto px-4 py-8">
@@ -103,7 +103,7 @@ const ArtisanDetail = () => {
       <div className="relative mb-12">
         <div className="h-64 md:h-80 bg-[#1A237E] rounded-xl overflow-hidden">
           <img 
-            src={getTruncatedImageUrl(artisanImage)}
+            src={artisanImage}
             alt={`Artisan ${artisan.name}`} 
             className="w-full h-full object-cover opacity-40"
           />
@@ -207,13 +207,13 @@ const ArtisanDetail = () => {
           </div>
           <div className="space-y-4">
             <img 
-              src={getTruncatedImageUrl(artisanImage)}
+              src={artisanImage}
               alt={`Artisan ${artisan.name} at work`} 
               className="w-full h-48 object-cover rounded-lg"
             />
             {artisan.products && artisan.products.length > 0 && (
               <img 
-                src={getTruncatedImageUrl(artisan.products[0].imageUrl)}
+                src={artisan.products[0].imageUrl}
                 alt={`A product by ${artisan.name}`} 
                 className="w-full h-48 object-cover rounded-lg"
               />

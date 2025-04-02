@@ -25,7 +25,7 @@ const ArtisanCard = ({
     <div className="bg-white rounded-xl overflow-hidden shadow-lg hover:shadow-xl transition-all duration-300">
       <div className="relative h-64">
         <img 
-          src={getTruncatedImageUrl(imageUrl)}
+          src={imageUrl}
           alt={`Artisan ${artisan.name}`} 
           className="w-full h-full object-cover"
         />

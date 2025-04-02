@@ -63,7 +63,7 @@ const ArtisanSection = () => {
               <div key={artisan.id} className="bg-white rounded-xl overflow-hidden shadow-lg">
                 <div className="relative h-64">
                   <img 
-                    src={artisanImages[index % artisanImages.length]}
+                    src={artisan.imageUrl || artisanImages[index % artisanImages.length]}
                     alt={`Artisan ${artisan.name}`} 
                     className="w-full h-full object-cover"
                   />
