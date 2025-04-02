@@ -3,8 +3,14 @@ import { createServer, type Server } from "http";
 import { storage } from "./storage";
 import { z } from "zod";
 import { insertProductSchema, insertUserSchema, insertCartItemSchema, insertOrderSchema, insertOrderItemSchema, insertReviewSchema } from "@shared/schema";
+import path from "path";
 
 export async function registerRoutes(app: Express): Promise<Server> {
+  // Test route for direct image testing
+  app.get("/test-images", (_req: Request, res: Response) => {
+    res.sendFile(path.join(process.cwd(), "public/test-images.html"));
+  });
+  
   // === User Routes ===
   app.get("/api/users/:id", async (req: Request, res: Response) => {
     const userId = parseInt(req.params.id);
