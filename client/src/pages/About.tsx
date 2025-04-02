@@ -93,8 +93,8 @@ const About = () => {
                 className="w-full h-48 object-cover rounded-lg"
               />
               <img 
-                src="https://images.unsplash.com/photo-1602934585418-f588bea4215a?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=80" 
-                alt="Display of traditional Indian toys" 
+                src="/images/hero-artisans.jpg" 
+                alt="Artisans working on clay toys" 
                 className="w-full h-64 object-cover rounded-lg"
               />
             </div>
