@@ -40,8 +40,7 @@ const ProductCard = ({ product }: ProductCardProps) => {
 
   return (
     <div className="product-card bg-white rounded-xl overflow-hidden shadow-md transition-all duration-300 hover:shadow-lg hover:-translate-y-2">
-      <Link href={`/product/${product.id}`}>
-        <a className="block">
+      <Link href={`/product/${product.id}`} className="block">
           <div className="relative h-56">
             <img 
               src={getTruncatedImageUrl(product.imageUrl)}
@@ -77,7 +76,6 @@ const ProductCard = ({ product }: ProductCardProps) => {
               </Button>
             </div>
           </div>
-        </a>
       </Link>
     </div>
   );

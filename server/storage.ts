@@ -101,22 +101,22 @@ export class MemStorage implements IStorage {
       {
         name: "North India",
         description: "Discover wooden toys from Varanasi, cloth dolls from Punjab, and colorful puppets from Rajasthan.",
-        imageUrl: "https://direct-image.pexels.com/photos/6713309/pexels-photo-6713309.jpeg"
+        imageUrl: "https://images.pexels.com/photos/6713309/pexels-photo-6713309.jpeg?auto=compress&cs=tinysrgb&w=600"
       },
       {
         name: "South India",
         description: "Explore Channapatna toys from Karnataka, Kondapalli toys from Andhra Pradesh, and leather puppets.",
-        imageUrl: "https://direct-image.pexels.com/photos/7861501/pexels-photo-7861501.jpeg"
+        imageUrl: "https://images.pexels.com/photos/7861501/pexels-photo-7861501.jpeg?auto=compress&cs=tinysrgb&w=600"
       },
       {
         name: "East India",
         description: "Discover clay dolls from West Bengal, bamboo toys from Assam, and painted wooden figures.",
-        imageUrl: "https://direct-image.pexels.com/photos/3617527/pexels-photo-3617527.jpeg"
+        imageUrl: "https://images.pexels.com/photos/3617527/pexels-photo-3617527.jpeg?auto=compress&cs=tinysrgb&w=600"
       },
       {
         name: "West India",
         description: "Explore wooden toys from Gujarat, clay figures from Maharashtra, and tribal art toys.",
-        imageUrl: "https://direct-image.pexels.com/photos/6713307/pexels-photo-6713307.jpeg"
+        imageUrl: "https://images.pexels.com/photos/6713307/pexels-photo-6713307.jpeg?auto=compress&cs=tinysrgb&w=600"
       }
     ];
 
@@ -174,7 +174,7 @@ export class MemStorage implements IStorage {
         category: "Wooden Toys",
         region: "South India",
         material: "Wood",
-        imageUrl: "https://direct-image.pexels.com/photos/4862453/pexels-photo-4862453.jpeg",
+        imageUrl: "https://images.pexels.com/photos/4862453/pexels-photo-4862453.jpeg?auto=compress&cs=tinysrgb&w=600",
         artisanId: artisanIds[0],
         stock: 15,
         history: "Channapatna toys have a rich history dating back to the reign of Tipu Sultan who invited Persian artisans to train local craftsmen in toy making. The craft has been passed down through generations for over 200 years.",
@@ -188,7 +188,7 @@ export class MemStorage implements IStorage {
         category: "Clay Crafts",
         region: "East India",
         material: "Clay",
-        imageUrl: "https://direct-image.pexels.com/photos/12816120/pexels-photo-12816120.jpeg",
+        imageUrl: "https://images.pexels.com/photos/12816120/pexels-photo-12816120.jpeg?auto=compress&cs=tinysrgb&w=600",
         artisanId: artisanIds[1],
         stock: 20,
         history: "The tradition of making clay dolls in West Bengal dates back several centuries. Krishnanagar in particular is famous for its lifelike clay dolls that showcase the region's artistic excellence.",
@@ -202,7 +202,7 @@ export class MemStorage implements IStorage {
         category: "Puppets & Dolls",
         region: "North India",
         material: "Cloth and Wood",
-        imageUrl: "https://direct-image.pexels.com/photos/7562307/pexels-photo-7562307.jpeg",
+        imageUrl: "https://images.pexels.com/photos/7562307/pexels-photo-7562307.jpeg?auto=compress&cs=tinysrgb&w=600",
         artisanId: artisanIds[2],
         stock: 10,
         history: "Kathputli puppetry originated in Rajasthan over a thousand years ago. Traditionally performed by nomadic tribes, these puppets have been used to tell stories from mythology and folklore.",
@@ -216,7 +216,7 @@ export class MemStorage implements IStorage {
         category: "Wooden Toys",
         region: "South India",
         material: "Wood",
-        imageUrl: "https://direct-image.pexels.com/photos/135620/pexels-photo-135620.jpeg",
+        imageUrl: "https://images.pexels.com/photos/135620/pexels-photo-135620.jpeg?auto=compress&cs=tinysrgb&w=600",
         artisanId: artisanIds[0],
         stock: 8,
         history: "Kondapalli toys have been crafted in the Kondapalli village near Vijayawada for over 400 years. The craft gained prominence during the rule of Krishna Deva Raya of the Vijayanagara Empire.",
@@ -230,7 +230,7 @@ export class MemStorage implements IStorage {
         category: "Wooden Toys",
         region: "South India",
         material: "Wood",
-        imageUrl: "https://direct-image.pexels.com/photos/3661264/pexels-photo-3661264.jpeg",
+        imageUrl: "https://images.pexels.com/photos/3661264/pexels-photo-3661264.jpeg?auto=compress&cs=tinysrgb&w=600",
         artisanId: artisanIds[0],
         stock: 25,
         history: "Traditional wooden rattles have been a part of Indian childhood for centuries. These Channapatna rattles continue the age-old tradition while ensuring they are safe for infants.",
@@ -244,7 +244,7 @@ export class MemStorage implements IStorage {
         category: "Wooden Toys",
         region: "South India",
         material: "Wood",
-        imageUrl: "https://direct-image.pexels.com/photos/3933777/pexels-photo-3933777.jpeg",
+        imageUrl: "https://images.pexels.com/photos/3933777/pexels-photo-3933777.jpeg?auto=compress&cs=tinysrgb&w=600",
         artisanId: artisanIds[0],
         stock: 12,
         history: "Train toys became popular in Indian toy culture with the introduction of railways during the colonial period. Today's versions maintain traditional crafting techniques.",
@@ -258,7 +258,7 @@ export class MemStorage implements IStorage {
         category: "Wooden Toys",
         region: "South India",
         material: "Wood",
-        imageUrl: "https://direct-image.pexels.com/photos/2697293/pexels-photo-2697293.jpeg",
+        imageUrl: "https://images.pexels.com/photos/2697293/pexels-photo-2697293.jpeg?auto=compress&cs=tinysrgb&w=600",
         artisanId: artisanIds[0],
         stock: 30,
         history: "Spinning tops or 'lattu' have been popular traditional toys across India for centuries. They were mentioned in ancient Indian texts and continue to be popular today.",
@@ -272,7 +272,7 @@ export class MemStorage implements IStorage {
         category: "Wooden Toys",
         region: "South India",
         material: "Wood",
-        imageUrl: "https://direct-image.pexels.com/photos/2123482/pexels-photo-2123482.jpeg",
+        imageUrl: "https://images.pexels.com/photos/2123482/pexels-photo-2123482.jpeg?auto=compress&cs=tinysrgb&w=600",
         artisanId: artisanIds[0],
         stock: 15,
         history: "Elephant figurines have deep roots in Indian culture and have been crafted for centuries. The elephant is associated with Lord Ganesha and symbolizes wisdom and strength.",
@@ -286,7 +286,7 @@ export class MemStorage implements IStorage {
         category: "Wooden Toys",
         region: "South India",
         material: "Wood",
-        imageUrl: "https://direct-image.pexels.com/photos/3933024/pexels-photo-3933024.jpeg",
+        imageUrl: "https://images.pexels.com/photos/3933024/pexels-photo-3933024.jpeg?auto=compress&cs=tinysrgb&w=600",
         artisanId: artisanIds[0],
         stock: 5,
         history: "Miniature houses have been part of Indian toy tradition, often depicting traditional rural homes with their distinctive architecture and lifestyle.",

@@ -25,8 +25,7 @@ const Header = () => {
       <div className="container mx-auto">
         <div className="flex justify-between items-center py-3 px-4 md:px-6">
           {/* Logo */}
-          <Link href="/">
-            <a className="flex items-center">
+          <Link href="/" className="flex items-center">
               <div className="w-10 h-10 rounded-full bg-[#E64A19] flex items-center justify-center mr-2">
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="text-white">
                   <path d="M17.5 7.5c.82.82 2.13.82 2.95 0l.5-.5c.82-.82.82-2.13 0-2.95l-3-3c-.82-.82-2.13-.82-2.95 0l-.5.5c-.82.82-.82 2.13 0 2.95z" />
@@ -38,7 +37,6 @@ const Header = () => {
                 </svg>
               </div>
               <span className="font-serif text-2xl text-[#E64A19]">Toy<span className="text-[#1A237E]">Craft</span></span>
-            </a>
           </Link>
           
           {/* Search - Desktop */}
@@ -48,25 +46,17 @@ const Header = () => {
           
           {/* Navigation - Desktop */}
           <nav className="hidden md:flex items-center space-x-6">
-            <Link href="/shop">
-              <a className={`text-gray-800 hover:text-[#E64A19] font-medium transition-colors ${location === '/shop' ? 'text-[#E64A19]' : ''}`}>
+            <Link href="/shop" className={`text-gray-800 hover:text-[#E64A19] font-medium transition-colors ${location === '/shop' ? 'text-[#E64A19]' : ''}`}>
                 Shop
-              </a>
             </Link>
-            <Link href="/artisans">
-              <a className={`text-gray-800 hover:text-[#E64A19] font-medium transition-colors ${location === '/artisans' ? 'text-[#E64A19]' : ''}`}>
+            <Link href="/artisans" className={`text-gray-800 hover:text-[#E64A19] font-medium transition-colors ${location === '/artisans' ? 'text-[#E64A19]' : ''}`}>
                 Artisans
-              </a>
             </Link>
-            <Link href="/regions">
-              <a className={`text-gray-800 hover:text-[#E64A19] font-medium transition-colors ${location === '/regions' ? 'text-[#E64A19]' : ''}`}>
+            <Link href="/regions" className={`text-gray-800 hover:text-[#E64A19] font-medium transition-colors ${location === '/regions' ? 'text-[#E64A19]' : ''}`}>
                 Regions
-              </a>
             </Link>
-            <Link href="/about">
-              <a className={`text-gray-800 hover:text-[#E64A19] font-medium transition-colors ${location === '/about' ? 'text-[#E64A19]' : ''}`}>
+            <Link href="/about" className={`text-gray-800 hover:text-[#E64A19] font-medium transition-colors ${location === '/about' ? 'text-[#E64A19]' : ''}`}>
                 About
-              </a>
             </Link>
           </nav>
           
@@ -84,8 +74,7 @@ const Header = () => {
             </button>
             
             {/* Cart Link */}
-            <Link href="/cart">
-              <a className="text-gray-800 hover:text-[#E64A19] transition-colors relative">
+            <Link href="/cart" className="text-gray-800 hover:text-[#E64A19] transition-colors relative">
                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
                   <circle cx="8" cy="21" r="1"></circle>
                   <circle cx="19" cy="21" r="1"></circle>
@@ -96,7 +85,6 @@ const Header = () => {
                     {cartCount}
                   </span>
                 )}
-              </a>
             </Link>
             
             {/* User Account Link */}
@@ -129,24 +117,12 @@ const Header = () => {
                   
                   {/* Mobile Navigation Links */}
                   <nav className="flex flex-col space-y-4">
-                    <Link href="/">
-                      <a className="text-gray-800 hover:text-[#E64A19] font-medium py-2">Home</a>
-                    </Link>
-                    <Link href="/shop">
-                      <a className="text-gray-800 hover:text-[#E64A19] font-medium py-2">Shop</a>
-                    </Link>
-                    <Link href="/artisans">
-                      <a className="text-gray-800 hover:text-[#E64A19] font-medium py-2">Artisans</a>
-                    </Link>
-                    <Link href="/regions">
-                      <a className="text-gray-800 hover:text-[#E64A19] font-medium py-2">Regions</a>
-                    </Link>
-                    <Link href="/about">
-                      <a className="text-gray-800 hover:text-[#E64A19] font-medium py-2">About Us</a>
-                    </Link>
-                    <Link href="/cart">
-                      <a className="text-gray-800 hover:text-[#E64A19] font-medium py-2">Cart</a>
-                    </Link>
+                    <Link href="/" className="text-gray-800 hover:text-[#E64A19] font-medium py-2">Home</Link>
+                    <Link href="/shop" className="text-gray-800 hover:text-[#E64A19] font-medium py-2">Shop</Link>
+                    <Link href="/artisans" className="text-gray-800 hover:text-[#E64A19] font-medium py-2">Artisans</Link>
+                    <Link href="/regions" className="text-gray-800 hover:text-[#E64A19] font-medium py-2">Regions</Link>
+                    <Link href="/about" className="text-gray-800 hover:text-[#E64A19] font-medium py-2">About Us</Link>
+                    <Link href="/cart" className="text-gray-800 hover:text-[#E64A19] font-medium py-2">Cart</Link>
                   </nav>
                 </div>
               </SheetContent>
@@ -166,10 +142,8 @@ const Header = () => {
       <div className="hidden md:block bg-gray-50 border-t border-b border-gray-700 border-opacity-10">
         <div className="container mx-auto flex justify-between py-2 px-6 overflow-x-auto">
           {productCategories.map((category, index) => (
-            <Link key={index} href={`/shop?category=${encodeURIComponent(category)}`}>
-              <a className="whitespace-nowrap px-3 py-1 text-sm text-gray-800 hover:text-[#E64A19] font-medium transition-colors">
-                {category}
-              </a>
+            <Link key={index} href={`/shop?category=${encodeURIComponent(category)}`} className="whitespace-nowrap px-3 py-1 text-sm text-gray-800 hover:text-[#E64A19] font-medium transition-colors">
+              {category}
             </Link>
           ))}
         </div>

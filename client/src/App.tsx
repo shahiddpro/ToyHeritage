@@ -2,7 +2,6 @@ import { Switch, Route } from "wouter";
 import { queryClient } from "./lib/queryClient";
 import { QueryClientProvider } from "@tanstack/react-query";
 import { Toaster } from "@/components/ui/toaster";
-import { CartProvider } from "@/context/CartContext";
 import NotFound from "@/pages/not-found";
 import Header from "./components/layout/Header";
 import Footer from "./components/layout/Footer";
@@ -37,18 +36,19 @@ function Router() {
 
 function App() {
   return (
-    <QueryClientProvider client={queryClient}>
-      <CartProvider>
-        <div className="flex flex-col min-h-screen bg-[#FFF8E1] font-sans">
-          <Header />
-          <main className="flex-grow">
-            <Router />
-          </main>
-          <Footer />
+    <div className="flex flex-col min-h-screen bg-[#FFF8E1] font-sans">
+      <div className="p-4 text-center">
+        <h1 className="text-2xl font-bold">Toycathon</h1>
+        <p>Ancient Indian Toys</p>
+      </div>
+      <main className="flex-grow flex items-center justify-center">
+        <div className="text-center">
+          <h2 className="text-xl">Fixing application rendering...</h2>
+          <p>Debugging in progress</p>
         </div>
-        <Toaster />
-      </CartProvider>
-    </QueryClientProvider>
+      </main>
+      <div className="p-4 text-center bg-gray-100">Footer</div>
+    </div>
   );
 }
 

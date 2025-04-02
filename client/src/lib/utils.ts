@@ -51,9 +51,20 @@ export function getTruncatedImageUrl(url: string): string {
     return url;
   }
   
-  // Direct image approach (no query parameters or transforms)
-  if (url.includes('direct-image')) {
+  // If the URL already includes query parameters for Pexels, return it as is
+  if (url.includes('auto=compress&cs=tinysrgb')) {
     return url;
+  }
+  
+  // Direct image approach (converted to standard pexels format)
+  if (url.includes('direct-image.pexels.com')) {
+    // Convert direct-image URLs to standard format with optimized parameters
+    return url.replace('direct-image.pexels.com', 'images.pexels.com') + '?auto=compress&cs=tinysrgb&w=600';
+  }
+  
+  // Handle Pexels URLs without query parameters
+  if (url.includes('images.pexels.com') && !url.includes('?')) {
+    return `${url}?auto=compress&cs=tinysrgb&w=600`;
   }
   
   // Add file extension if missing and query parameters to get a smaller, optimized image
