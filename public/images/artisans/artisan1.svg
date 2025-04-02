@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="300" height="300" viewBox="0 0 300 300" xmlns="http://www.w3.org/2000/svg">
+  <!-- Master Craftsman from Karnataka -->
+  
+  <!-- Background -->
+  <rect width="300" height="300" fill="#FFF8E1" />
+  
+  <!-- Face -->
+  <circle cx="150" cy="100" r="50" fill="#E6BE8A" />
+  
+  <!-- Features -->
+  <ellipse cx="130" cy="90" rx="5" ry="7" fill="#4E342E" /> <!-- Left eye -->
+  <ellipse cx="170" cy="90" rx="5" ry="7" fill="#4E342E" /> <!-- Right eye -->
+  <path d="M140,110 C145,120 155,120 160,110" stroke="#4E342E" stroke-width="2" fill="none" /> <!-- Smile -->
+  
+  <!-- Mustache -->
+  <path d="M130,105 C140,102 150,105 160,102 C170,100 180,105 180,105" stroke="#4E342E" stroke-width="3" fill="none" />
+  
+  <!-- Hair -->
+  <path d="M100,90 C100,60 200,60 200,90" fill="#4E342E" />
+  
+  <!-- Traditional attire (upper body) -->
+  <rect x="110" y="150" width="80" height="60" fill="#FFC107" />
+  
+  <!-- Dhoti (lower body) -->
+  <path d="M110,210 C90,270 120,270 150,250 C180,270 210,270 190,210 Z" fill="white" />
+  
+  <!-- Arms -->
+  <path d="M110,160 C80,150 70,190 90,210" stroke="#E6BE8A" stroke-width="10" fill="none" /> <!-- Left arm -->
+  <path d="M190,160 C220,150 230,190 210,210" stroke="#E6BE8A" stroke-width="10" fill="none" /> <!-- Right arm -->
+  
+  <!-- Hands -->
+  <circle cx="90" cy="210" r="10" fill="#E6BE8A" />
+  <circle cx="210" cy="210" r="10" fill="#E6BE8A" />
+  
+  <!-- Wooden toy in hand -->
+  <rect x="70" y="210" width="40" height="20" fill="#A0522D" />
+  <rect x="85" y="195" width="10" height="15" fill="#A0522D" />
+  <circle cx="90" cy="190" r="8" fill="#A0522D" />
+  <path d="M70,220 L70,230 L110,230 L110,220" fill="#A0522D" />
+  
+  <!-- Paint brushes in hand -->
+  <line x1="210" y1="210" x2="220" y2="190" stroke="#A0522D" stroke-width="3" />
+  <rect x="218" y="180" width="4" height="10" fill="#F44336" />
+  <line x1="210" y1="210" x2="230" y2="200" stroke="#A0522D" stroke-width="3" />
+  <rect x="228" y="195" width="4" height="10" fill="#FFC107" />
+  
+  <!-- Turban -->
+  <path d="M100,70 C100,40 200,40 200,70" fill="#F57C00" />
+  
+  <!-- Neck -->
+  <rect x="140" y="135" width="20" height="15" fill="#E6BE8A" />
+  
+  <!-- Artisan label -->
+  <rect x="75" y="260" width="150" height="30" rx="5" fill="#3F51B5" />
+  <text x="150" y="280" font-family="Arial" font-size="14" text-anchor="middle" fill="white">Master Woodworker</text>
+</svg>

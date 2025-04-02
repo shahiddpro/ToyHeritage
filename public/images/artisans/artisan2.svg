@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="300" height="300" viewBox="0 0 300 300" xmlns="http://www.w3.org/2000/svg">
+  <!-- Clay Craftswoman from Bengal -->
+  
+  <!-- Background -->
+  <rect width="300" height="300" fill="#FFF8E1" />
+  
+  <!-- Face -->
+  <circle cx="150" cy="100" r="50" fill="#E6BE8A" />
+  
+  <!-- Features -->
+  <ellipse cx="130" cy="90" rx="5" ry="7" fill="#4E342E" /> <!-- Left eye -->
+  <ellipse cx="170" cy="90" rx="5" ry="7" fill="#4E342E" /> <!-- Right eye -->
+  <path d="M140,110 C145,120 155,120 160,110" stroke="#4E342E" stroke-width="2" fill="none" /> <!-- Smile -->
+  <circle cx="130" cy="75" r="2" fill="#E91E63" /> <!-- Bindi -->
+  
+  <!-- Hair -->
+  <path d="M100,80 C100,50 200,50 200,80" fill="#4E342E" />
+  <circle cx="150" cy="60" r="20" fill="#4E342E" /> <!-- Bun -->
+  
+  <!-- Flowers in hair -->
+  <circle cx="165" cy="50" r="8" fill="#E91E63" />
+  <circle cx="165" cy="50" r="3" fill="#FFC107" />
+  <circle cx="150" cy="45" r="8" fill="#E91E63" />
+  <circle cx="150" cy="45" r="3" fill="#FFC107" />
+  <circle cx="135" cy="50" r="8" fill="#E91E63" />
+  <circle cx="135" cy="50" r="3" fill="#FFC107" />
+  
+  <!-- Saree (clothing) -->
+  <path d="M100,150 C80,200 120,250 150,250 C180,250 220,200 200,150 Z" fill="#E91E63" />
+  <rect x="110" y="150" width="80" height="30" fill="#880E4F" /> <!-- Blouse -->
+  <path d="M100,150 L200,150 L190,180 L110,180 Z" fill="#880E4F" /> <!-- Saree fold -->
+  
+  <!-- Gold work on saree -->
+  <path d="M110,190 C130,195 170,195 190,190" stroke="gold" stroke-width="2" fill="none" />
+  <path d="M120,210 C140,215 160,215 180,210" stroke="gold" stroke-width="2" fill="none" />
+  <path d="M130,230 C140,235 160,235 170,230" stroke="gold" stroke-width="2" fill="none" />
+  
+  <!-- Neck -->
+  <rect x="140" y="130" width="20" height="20" fill="#E6BE8A" />
+  
+  <!-- Arms -->
+  <path d="M110,160 C90,170 80,190 90,210" stroke="#E6BE8A" stroke-width="10" fill="none" /> <!-- Left arm -->
+  <path d="M190,160 C210,170 220,190 210,210" stroke="#E6BE8A" stroke-width="10" fill="none" /> <!-- Right arm -->
+  
+  <!-- Hands -->
+  <circle cx="90" cy="210" r="10" fill="#E6BE8A" />
+  <circle cx="210" cy="210" r="10" fill="#E6BE8A" />
+  
+  <!-- Clay pot being crafted -->
+  <path d="M130,200 C130,180 170,180 170,200 C170,220 130,220 130,200 Z" fill="#BF8040" />
+  <ellipse cx="150" cy="180" rx="20" ry="5" fill="#BF8040" />
+  <line x1="150" y1="190" x2="150" y2="210" stroke="#8B4513" stroke-width="1" />
+  <path d="M140,190 C145,195 155,195 160,190" stroke="#8B4513" stroke-width="1" fill="none" />
+  <path d="M135,200 C140,205 160,205 165,200" stroke="#8B4513" stroke-width="1" fill="none" />
+  
+  <!-- Jewelry -->
+  <path d="M130,130 C140,140 160,140 170,130" stroke="gold" stroke-width="2" fill="none" /> <!-- Necklace -->
+  <circle cx="150" cy="135" r="3" fill="gold" /> <!-- Pendant -->
+  <circle cx="100" cy="100" r="5" fill="gold" /> <!-- Earring left -->
+  <circle cx="200" cy="100" r="5" fill="gold" /> <!-- Earring right -->
+  
+  <!-- Artisan label -->
+  <rect x="75" y="260" width="150" height="30" rx="5" fill="#3F51B5" />
+  <text x="150" y="280" font-family="Arial" font-size="14" text-anchor="middle" fill="white">Clay Artisan</text>
+</svg>

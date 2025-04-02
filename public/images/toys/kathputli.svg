@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="300" height="400" viewBox="0 0 300 400" xmlns="http://www.w3.org/2000/svg">
+  <!-- Traditional Rajasthani Kathputli Puppet -->
+  <defs>
+    <linearGradient id="wood" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#8B4513;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#A0522D;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#8B4513;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="dress" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#FF9800;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#F57C00;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="blouse" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#4CAF50;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#2E7D32;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Strings -->
+  <line x1="100" y1="0" x2="120" y2="60" stroke="black" stroke-width="1" />
+  <line x1="200" y1="0" x2="180" y2="60" stroke="black" stroke-width="1" />
+  <line x1="80" y1="0" x2="80" y2="200" stroke="black" stroke-width="1" />
+  <line x1="220" y1="0" x2="220" y2="200" stroke="black" stroke-width="1" />
+  
+  <!-- Head -->
+  <circle cx="150" cy="90" r="40" fill="#E6BE8A" />
+  
+  <!-- Face -->
+  <ellipse cx="135" cy="80" rx="5" ry="7" fill="black" /> <!-- Left eye -->
+  <ellipse cx="165" cy="80" rx="5" ry="7" fill="black" /> <!-- Right eye -->
+  <path d="M135,100 C145,110 155,110 165,100" stroke="black" stroke-width="2" fill="none" /> <!-- Smile -->
+  <line x1="150" y1="90" x2="150" y2="95" stroke="black" stroke-width="2" /> <!-- Nose -->
+  <path d="M120,60 C120,50 180,50 180,60" fill="#7B3F00" /> <!-- Crown/Headpiece -->
+  
+  <!-- Earrings -->
+  <circle cx="110" cy="90" r="5" fill="gold" />
+  <circle cx="190" cy="90" r="5" fill="gold" />
+  
+  <!-- Neck/Upper body -->
+  <rect x="140" y="130" width="20" height="30" fill="#E6BE8A" />
+  
+  <!-- Blouse/Upper Garment -->
+  <rect x="110" y="160" width="80" height="40" rx="5" fill="url(#blouse)" />
+  
+  <!-- Dress/Skirt -->
+  <path d="M110,200 L110,350 L190,350 L190,200 Z" fill="url(#dress)" />
+  
+  <!-- Decorative Patterns -->
+  <circle cx="150" cy="220" r="10" fill="#FFC107" />
+  <circle cx="150" cy="250" r="10" fill="#F44336" />
+  <circle cx="150" cy="280" r="10" fill="#3F51B5" />
+  <circle cx="150" cy="310" r="10" fill="#FFC107" />
+  
+  <line x1="110" y1="230" x2="190" y2="230" stroke="#FFC107" stroke-width="2" />
+  <line x1="110" y1="260" x2="190" y2="260" stroke="#F44336" stroke-width="2" />
+  <line x1="110" y1="290" x2="190" y2="290" stroke="#3F51B5" stroke-width="2" />
+  <line x1="110" y1="320" x2="190" y2="320" stroke="#FFC107" stroke-width="2" />
+  
+  <!-- Arms -->
+  <line x1="110" y1="180" x2="80" y2="200" stroke="#E6BE8A" stroke-width="10" />
+  <line x1="190" y1="180" x2="220" y2="200" stroke="#E6BE8A" stroke-width="10" />
+  
+  <!-- Hands -->
+  <circle cx="80" cy="200" r="8" fill="#E6BE8A" />
+  <circle cx="220" cy="200" r="8" fill="#E6BE8A" />
+  
+  <!-- Mirror Work -->
+  <circle cx="125" cy="210" r="3" fill="silver" />
+  <circle cx="175" cy="210" r="3" fill="silver" />
+  <circle cx="125" cy="240" r="3" fill="silver" />
+  <circle cx="175" cy="240" r="3" fill="silver" />
+  <circle cx="125" cy="270" r="3" fill="silver" />
+  <circle cx="175" cy="270" r="3" fill="silver" />
+  <circle cx="125" cy="300" r="3" fill="silver" />
+  <circle cx="175" cy="300" r="3" fill="silver" />
+  <circle cx="125" cy="330" r="3" fill="silver" />
+  <circle cx="175" cy="330" r="3" fill="silver" />
+</svg>

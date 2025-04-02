@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="500" height="300" viewBox="0 0 500 300" xmlns="http://www.w3.org/2000/svg">
+  <!-- North India Imagery -->
+  <defs>
+    <linearGradient id="sky" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#2196F3;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#81D4FA;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="500" height="300" fill="url(#sky)" />
+  
+  <!-- Mountains (Himalayas) -->
+  <path d="M0,150 L80,50 L120,100 L200,30 L250,80 L300,40 L350,90 L400,20 L450,70 L500,30 L500,150 Z" fill="#F5F5F5" />
+  <path d="M0,150 L80,80 L120,110 L200,60 L250,100 L300,70 L350,110 L400,50 L450,90 L500,60 L500,150 Z" fill="#E0E0E0" />
+  <path d="M0,150 L50,130 L100,140 L150,120 L200,145 L250,125 L300,140 L350,130 L400,145 L450,130 L500,145 L500,150 Z" fill="#BDBDBD" />
+  
+  <!-- Snow caps -->
+  <path d="M80,50 L85,55 L90,48 L95,52 L100,45" stroke="white" stroke-width="5" fill="none" />
+  <path d="M200,30 L210,40 L220,25 L230,45" stroke="white" stroke-width="5" fill="none" />
+  <path d="M300,40 L310,50 L320,35 L330,55" stroke="white" stroke-width="5" fill="none" />
+  <path d="M400,20 L410,30 L420,15 L430,35" stroke="white" stroke-width="5" fill="none" />
+  
+  <!-- Taj Mahal stylized -->
+  <rect x="200" y="150" width="100" height="70" fill="white" />
+  <path d="M200,150 L250,110 L300,150 Z" fill="white" />
+  
+  <!-- Dome -->
+  <path d="M235,150 C235,120 265,120 265,150" fill="white" stroke="#BDBDBD" stroke-width="1" />
+  <line x1="250" y1="110" x2="250" y2="100" stroke="#BDBDBD" stroke-width="2" />
+  <circle cx="250" cy="100" r="3" fill="#BDBDBD" />
+  
+  <!-- Doors and windows -->
+  <rect x="240" y="180" width="20" height="40" fill="#81D4FA" />
+  <rect x="215" y="170" width="10" height="15" rx="5" fill="#81D4FA" />
+  <rect x="275" y="170" width="10" height="15" rx="5" fill="#81D4FA" />
+  
+  <!-- Reflection pool -->
+  <rect x="150" y="230" width="200" height="20" fill="#81D4FA" />
+  <line x1="150" y1="240" x2="350" y2="240" stroke="white" stroke-width="1" stroke-dasharray="3,2" />
+  
+  <!-- Kathputli puppet -->
+  <circle cx="400" cy="200" r="15" fill="#FFC107" /> <!-- Head -->
+  <rect x="395" y="215" width="10" height="30" fill="#FF5722" /> <!-- Body -->
+  <line x1="395" y1="225" x2="380" y2="235" stroke="#FF5722" stroke-width="4" /> <!-- Left arm -->
+  <line x1="405" y1="225" x2="420" y2="235" stroke="#FF5722" stroke-width="4" /> <!-- Right arm -->
+  <line x1="395" y1="245" x2="385" y2="270" stroke="#FF5722" stroke-width="4" /> <!-- Left leg -->
+  <line x1="405" y1="245" x2="415" y2="270" stroke="#FF5722" stroke-width="4" /> <!-- Right leg -->
+  <line x1="400" y1="180" x2="400" y2="185" stroke="black" stroke-width="1" /> <!-- String -->
+  
+  <!-- Region label -->
+  <rect x="150" y="40" width="200" height="40" rx="10" fill="rgba(255,255,255,0.7)" />
+  <text x="250" y="65" font-family="Arial" font-size="20" text-anchor="middle" font-weight="bold" fill="#FF5722">North India</text>
+</svg>
