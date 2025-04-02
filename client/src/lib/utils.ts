@@ -41,8 +41,18 @@ export const regionNames = [
 ];
 
 export function getTruncatedImageUrl(url: string): string {
+  // If no URL is provided or it's empty, return a default placeholder
+  if (!url) {
+    return 'https://placehold.co/600x400/orange/white?text=Product+Image';
+  }
+  
   // Return unmodified URL if it's a relative path (for local images)
   if (!url.startsWith('http')) {
+    return url;
+  }
+  
+  // Direct image approach (no query parameters or transforms)
+  if (url.includes('direct-image')) {
     return url;
   }
   
