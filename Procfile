@@ -1,2 +1,2 @@
 
-web: node dist/server/index.ts
+web: ts-node dist/server/index.ts
